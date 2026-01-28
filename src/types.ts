@@ -123,6 +123,8 @@ export interface CountryButtonProps {
   withCountryNameButton?: boolean;
   /** Show flag on button */
   withFlag?: boolean;
+  /** Show country code on button */
+  withCallingCode?: boolean;
   /** Custom button style */
   style?: StyleProp<ViewStyle>;
   /** Custom render function for the chevron icon */

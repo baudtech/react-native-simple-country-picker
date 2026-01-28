@@ -122,6 +122,7 @@ const CountryPicker: React.FC<CountryPickerProps> = ({
         onPress={handleOpen}
         withCountryNameButton={withCountryNameButton}
         withFlag={withFlag}
+        withCallingCode={withCallingCode}
         style={buttonStyle}
         renderChevron={renderChevron}
         renderFlag={renderFlag}

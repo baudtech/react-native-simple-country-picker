@@ -16,6 +16,7 @@ const CountryButton: React.FC<CountryButtonProps> = ({
   onPress,
   withCountryNameButton = false,
   withFlag = false,
+  withCallingCode = false,
   style,
   renderChevron,
   renderFlag,
@@ -40,6 +41,11 @@ const CountryButton: React.FC<CountryButtonProps> = ({
         {withCountryNameButton && selectedCountry && (
           <Text style={styles.countryName} numberOfLines={1}>
             {selectedCountry.name}
+          </Text>
+        )}
+        {withCallingCode && selectedCountry && (
+          <Text style={styles.countryName} numberOfLines={1}>
+            {selectedCountry.callingCode}
           </Text>
         )}
         {!selectedCountry && (
