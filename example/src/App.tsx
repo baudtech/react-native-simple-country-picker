@@ -1,13 +1,15 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import {
   View,
   Text,
   StyleSheet,
   ScrollView,
   TouchableOpacity,
+  Button,
 } from 'react-native';
 import CountryPicker, {
   type Country,
+  type CountryPickerRef,
 } from 'react-native-simple-country-picker';
 
 export default function App() {
@@ -18,7 +20,11 @@ export default function App() {
   const [country5, setCountry5] = useState<Country | null>(null);
   const [country6, setCountry6] = useState<Country | null>(null);
   const [country7, setCountry7] = useState<Country | null>(null);
+  const [country8, setCountry8] = useState<Country | null>(null);
   const [language, setLanguage] = useState<string>('en');
+
+  // Ref for imperative control
+  const pickerRef = useRef<CountryPickerRef>(null);
 
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer}>
@@ -250,6 +256,40 @@ export default function App() {
             </View>
           )}
         </View>
+
+        {/* Example 8: Imperative Ref Control */}
+        <View style={styles.example}>
+          <Text style={styles.label}>Imperative Ref Control</Text>
+          <Text style={styles.description}>
+            Open the modal programmatically using a ref without clicking the
+            button
+          </Text>
+          <View style={styles.imperativeExample}>
+            <CountryPicker
+              ref={pickerRef}
+              withCountryNameButton
+              withFlag
+              withFilter
+              onSelect={setCountry8}
+              countryCode="CA"
+            />
+            <Button
+              title="Open Modal Programmatically"
+              onPress={() => pickerRef.current?.open()}
+            />
+          </View>
+          {country8 && (
+            <View style={styles.result}>
+              <Text style={styles.resultText}>
+                Selected: {country8.flag} {country8.name}
+              </Text>
+              <Text style={styles.resultDetail}>
+                You can use ref.current.open() and ref.current.close() to
+                control the modal
+              </Text>
+            </View>
+          )}
+        </View>
       </View>
     </ScrollView>
   );
@@ -406,5 +446,8 @@ const styles = StyleSheet.create({
     color: '#007AFF',
     fontSize: 14,
     fontWeight: '600',
+  },
+  imperativeExample: {
+    gap: 12,
   },
 });

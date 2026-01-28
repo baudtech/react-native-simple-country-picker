@@ -31,6 +31,16 @@ export interface Translations {
 }
 
 /**
+ * Imperative handle for CountryPicker ref
+ */
+export interface CountryPickerRef {
+  /** Opens the country picker modal */
+  open: () => void;
+  /** Closes the country picker modal */
+  close: () => void;
+}
+
+/**
  * Main CountryPicker component props
  */
 export interface CountryPickerProps {
