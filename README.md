@@ -20,6 +20,7 @@ A flexible and customizable country picker component for React Native with searc
   <img src="./assets/example.png" alt="Basic Example" width="180" />
   <img src="./assets/example-no-country-code-modal.png" alt="No Country Code Modal" width="180" />
   <img src="./assets/example-full-modal.png" alt="Full Modal Example" width="180" />
+  <img src="./assets/example-custom-header.png" alt="Custom Modal Header" width="180" />
 </div>
 
 ## Installation
