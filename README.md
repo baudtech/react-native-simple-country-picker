@@ -14,6 +14,14 @@ A flexible and customizable country picker component for React Native with searc
 - Zero dependencies (pure React Native)
 - iOS and Android support
 
+## Screenshots
+
+<div style="display: flex; gap: 20px;">
+  <img src="./assets/example.png" alt="Basic Example" width="180" />
+  <img src="./assets/example-no-country-code-modal.png" alt="No Country Code Modal" width="180" />
+  <img src="./assets/example-full-modal.png" alt="Full Modal Example" width="180" />
+</div>
+
 ## Installation
 
 ```sh
