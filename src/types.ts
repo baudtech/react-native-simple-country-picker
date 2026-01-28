@@ -133,6 +133,8 @@ export interface SearchBarProps {
 export interface CountryButtonProps {
   /** Currently selected country (if any) */
   selectedCountry: Country | null;
+  /** Language/locale code for translating country names */
+  language?: string;
   /** Called when the button is pressed */
   onPress: () => void;
   /** Show country name on button */

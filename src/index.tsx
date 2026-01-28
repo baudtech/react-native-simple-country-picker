@@ -164,6 +164,7 @@ const CountryPicker = forwardRef<CountryPickerRef, CountryPickerProps>(
           renderChevron={renderChevron}
           renderFlag={renderFlag}
           placeholder={placeholder}
+          language={language}
           countryNameStyle={countryNameStyle}
         />
         <CountryModal
