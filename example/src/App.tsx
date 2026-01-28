@@ -16,6 +16,9 @@ export default function App() {
   const [country3, setCountry3] = useState<Country | null>(null);
   const [country4, setCountry4] = useState<Country | null>(null);
   const [country5, setCountry5] = useState<Country | null>(null);
+  const [country6, setCountry6] = useState<Country | null>(null);
+  const [country7, setCountry7] = useState<Country | null>(null);
+  const [language, setLanguage] = useState<string>('en');
 
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer}>
@@ -159,6 +162,94 @@ export default function App() {
             </View>
           )}
         </View>
+
+        {/* Example 6: With Language Prop (Spanish) */}
+        <View style={styles.example}>
+          <Text style={styles.label}>
+            Translated UI & Country Names (Spanish)
+          </Text>
+          <Text style={styles.description}>
+            Using language="es" to display Spanish translations for UI strings
+            and country names
+          </Text>
+          <CountryPicker
+            withCountryNameButton
+            withFlag
+            withFilter
+            onSelect={setCountry6}
+            language="es"
+            countryCode="ES"
+          />
+          {country6 && (
+            <View style={styles.result}>
+              <Text style={styles.resultText}>
+                Seleccionado: {country6.flag} {country6.name}
+              </Text>
+              <Text style={styles.resultDetail}>
+                The country name and search placeholder are in Spanish
+              </Text>
+            </View>
+          )}
+        </View>
+
+        {/* Language Selector */}
+        <View style={styles.languageSelector}>
+          <Text style={styles.languageSelectorLabel}>
+            UI Language: {language.toUpperCase()}
+          </Text>
+          <View style={styles.languageButtonsRow}>
+            {['en', 'es', 'fr', 'de'].map((lang) => (
+              <TouchableOpacity
+                key={lang}
+                style={[
+                  styles.languageButton,
+                  language === lang && styles.languageButtonActive,
+                ]}
+                onPress={() => setLanguage(lang)}
+              >
+                <Text
+                  style={[
+                    styles.languageButtonText,
+                    language === lang && styles.languageButtonTextActive,
+                  ]}
+                >
+                  {lang.toUpperCase()}
+                </Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+        </View>
+
+        {/* Example 7: Dynamic Language Switching */}
+        <View style={styles.example}>
+          <Text style={styles.label}>Dynamic Language Switching</Text>
+          <Text style={styles.description}>
+            Language changes with the selector above. Try selecting a language
+            first!
+          </Text>
+          <CountryPicker
+            withCountryNameButton
+            withFlag
+            withFilter
+            onSelect={setCountry7}
+            language={language}
+            countryCode="US"
+          />
+          {country7 && (
+            <View style={styles.result}>
+              <Text style={styles.resultText}>
+                Selected: {country7.flag} {country7.name}
+              </Text>
+              <Text style={styles.resultDetail}>
+                Current UI Language: {language.toUpperCase()}
+              </Text>
+              <Text style={styles.resultDetail}>
+                The search placeholder and other UI strings change based on the
+                selected language
+              </Text>
+            </View>
+          )}
+        </View>
       </View>
     </ScrollView>
   );
@@ -179,6 +270,45 @@ const styles = StyleSheet.create({
     marginBottom: 24,
     color: '#000',
     textAlign: 'center',
+  },
+  languageSelector: {
+    marginBottom: 24,
+    padding: 16,
+    backgroundColor: '#E8F4F8',
+    borderRadius: 12,
+    borderLeftWidth: 4,
+    borderLeftColor: '#0084FF',
+  },
+  languageSelectorLabel: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#000',
+    marginBottom: 12,
+  },
+  languageButtonsRow: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    gap: 8,
+  },
+  languageButton: {
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 8,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#CCC',
+  },
+  languageButtonActive: {
+    backgroundColor: '#0084FF',
+    borderColor: '#0084FF',
+  },
+  languageButtonText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#666',
+  },
+  languageButtonTextActive: {
+    color: '#FFFFFF',
   },
   example: {
     marginBottom: 32,

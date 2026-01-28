@@ -14,6 +14,20 @@ export interface Country {
   flag: string;
   /** ISO 4217 currency code (optional) */
   currency?: string;
+  /** Translated country names by language code (e.g., { es: "Estados Unidos", fr: "États-Unis" }) */
+  names?: Record<string, string>;
+}
+
+/**
+ * Translations interface for UI strings
+ */
+export interface Translations {
+  /** Search bar placeholder text */
+  searchPlaceholder: string;
+  /** Modal header title */
+  headerTitle: string;
+  /** Empty state message when no countries found */
+  noCountriesFound: string;
 }
 
 /**
@@ -44,6 +58,12 @@ export interface CountryPickerProps {
   /** Initial selected country code (ISO 3166-1 alpha-2) */
   countryCode?: string;
 
+  // Localization
+  /** Language/locale code (e.g., "en", "es", "fr") for translating country names */
+  language?: string;
+  /** Custom translations for UI strings */
+  translations?: Translations;
+
   // Styling
   /** Style for the main container */
   containerStyle?: StyleProp<ViewStyle>;
@@ -73,6 +93,8 @@ export interface CountryItemProps {
   withFlag?: boolean;
   /** Show calling code */
   withCallingCode?: boolean;
+  /** Language/locale code for displaying translated country names */
+  language?: string;
 }
 
 /**
@@ -135,4 +157,8 @@ export interface CountryModalProps {
   style?: StyleProp<ViewStyle>;
   /** Custom render function for the modal header */
   renderHeader?: (onClose: () => void) => React.ReactNode;
+  /** Language/locale code for translating country names */
+  language?: string;
+  /** Translations for UI strings */
+  translations?: Translations;
 }

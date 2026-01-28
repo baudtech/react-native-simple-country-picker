@@ -4,6 +4,7 @@ import type { CountryPickerProps, Country } from './types';
 import CountryButton from './components/CountryButton';
 import CountryModal from './components/CountryModal';
 import { filterCountries } from './utils/filterCountries';
+import { getTranslations } from './utils/translations';
 import allCountriesData from './data/countries.json';
 
 // Type assertion for imported JSON
@@ -21,6 +22,7 @@ const allCountries = allCountriesData as Country[];
  *   withFlag
  *   withFilter
  *   withCallingCode
+ *   language="es"
  *   onSelect={(country) => console.log(country)}
  *   countryCode="US"
  * />
@@ -36,6 +38,8 @@ const CountryPicker: React.FC<CountryPickerProps> = ({
   onOpen,
   countryCodes,
   countryCode,
+  language,
+  translations: customTranslations,
   containerStyle,
   buttonStyle,
   modalStyle,
@@ -43,6 +47,12 @@ const CountryPicker: React.FC<CountryPickerProps> = ({
   renderFlag,
   renderHeader,
 }) => {
+  // Get translations
+  const translations = useMemo(
+    () => getTranslations(language, customTranslations),
+    [language, customTranslations]
+  );
+
   // State management
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
@@ -128,6 +138,8 @@ const CountryPicker: React.FC<CountryPickerProps> = ({
         onSearchChange={handleSearchChange}
         style={modalStyle}
         renderHeader={renderHeader}
+        language={language}
+        translations={translations}
       />
     </View>
   );
@@ -136,7 +148,10 @@ const CountryPicker: React.FC<CountryPickerProps> = ({
 export default CountryPicker;
 
 // Export types for consumers
-export type { Country, CountryPickerProps } from './types';
+export type { Country, CountryPickerProps, Translations } from './types';
+
+// Export translation utilities for advanced use cases
+export { getTranslations, getCountryName } from './utils/translations';
 
 const styles = StyleSheet.create({
   container: {

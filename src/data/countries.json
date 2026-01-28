@@ -4,1364 +4,2924 @@
     "name": "Afghanistan",
     "callingCode": "+93",
     "flag": "🇦🇫",
-    "currency": "AFN"
+    "currency": "AFN",
+    "names": {
+      "es": "Afganistán",
+      "fr": "Afghanistan",
+      "de": "Afghanistan",
+      "pt": "Afeganistão",
+      "it": "Afghanistan",
+      "ja": "アフガニスタン"
+    }
   },
   {
     "code": "AL",
     "name": "Albania",
     "callingCode": "+355",
     "flag": "🇦🇱",
-    "currency": "ALL"
+    "currency": "ALL",
+    "names": {
+      "es": "Albania",
+      "fr": "Albanie",
+      "de": "Albanien",
+      "pt": "Albânia",
+      "it": "Albania",
+      "ja": "アルバニア"
+    }
   },
   {
     "code": "DZ",
     "name": "Algeria",
     "callingCode": "+213",
     "flag": "🇩🇿",
-    "currency": "DZD"
+    "currency": "DZD",
+    "names": {
+      "es": "Argelia",
+      "fr": "Algérie",
+      "de": "Algerien",
+      "pt": "Argélia",
+      "it": "Algeria",
+      "ja": "アルジェリア"
+    }
   },
   {
     "code": "AD",
     "name": "Andorra",
     "callingCode": "+376",
     "flag": "🇦🇩",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Andorra",
+      "fr": "Andorre",
+      "de": "Andorra",
+      "pt": "Andorra",
+      "it": "Andorra",
+      "ja": "アンドラ"
+    }
   },
   {
     "code": "AO",
     "name": "Angola",
     "callingCode": "+244",
     "flag": "🇦🇴",
-    "currency": "AOA"
+    "currency": "AOA",
+    "names": {
+      "es": "Angola",
+      "fr": "Angola",
+      "de": "Angola",
+      "pt": "Angola",
+      "it": "Angola",
+      "ja": "アンゴラ"
+    }
   },
   {
     "code": "AG",
     "name": "Antigua and Barbuda",
     "callingCode": "+1268",
     "flag": "🇦🇬",
-    "currency": "XCD"
+    "currency": "XCD",
+    "names": {
+      "es": "Antigua y Barbuda",
+      "fr": "Antigua-et-Barbuda",
+      "de": "Antigua und Barbuda",
+      "pt": "Antígua e Barbuda",
+      "it": "Antigua e Barbuda",
+      "ja": "アンティグア・バーブーダ"
+    }
   },
   {
     "code": "AR",
     "name": "Argentina",
     "callingCode": "+54",
     "flag": "🇦🇷",
-    "currency": "ARS"
+    "currency": "ARS",
+    "names": {
+      "es": "Argentina",
+      "fr": "Argentine",
+      "de": "Argentinien",
+      "pt": "Argentina",
+      "it": "Argentina",
+      "ja": "アルゼンチン"
+    }
   },
   {
     "code": "AM",
     "name": "Armenia",
     "callingCode": "+374",
     "flag": "🇦🇲",
-    "currency": "AMD"
+    "currency": "AMD",
+    "names": {
+      "es": "Armenia",
+      "fr": "Arménie",
+      "de": "Armenien",
+      "pt": "Armênia",
+      "it": "Armenia",
+      "ja": "アルメニア"
+    }
   },
   {
     "code": "AU",
     "name": "Australia",
     "callingCode": "+61",
     "flag": "🇦🇺",
-    "currency": "AUD"
+    "currency": "AUD",
+    "names": {
+      "es": "Australia",
+      "fr": "Australie",
+      "de": "Australien",
+      "pt": "Austrália",
+      "it": "Australia",
+      "ja": "オーストラリア"
+    }
   },
   {
     "code": "AT",
     "name": "Austria",
     "callingCode": "+43",
     "flag": "🇦🇹",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Austria",
+      "fr": "Autriche",
+      "de": "Österreich",
+      "pt": "Áustria",
+      "it": "Austria",
+      "ja": "オーストリア"
+    }
   },
   {
     "code": "AZ",
     "name": "Azerbaijan",
     "callingCode": "+994",
     "flag": "🇦🇿",
-    "currency": "AZN"
+    "currency": "AZN",
+    "names": {
+      "es": "Azerbaiyán",
+      "fr": "Azerbaïdjan",
+      "de": "Aserbaidschan",
+      "pt": "Azerbaijão",
+      "it": "Azerbaigian",
+      "ja": "アゼルバイジャン"
+    }
   },
   {
     "code": "BS",
     "name": "Bahamas",
     "callingCode": "+1242",
     "flag": "🇧🇸",
-    "currency": "BSD"
+    "currency": "BSD",
+    "names": {
+      "es": "Bahamas",
+      "fr": "Bahamas",
+      "de": "Bahamas",
+      "pt": "Bahamas",
+      "it": "Bahamas",
+      "ja": "バハマ"
+    }
   },
   {
     "code": "BH",
     "name": "Bahrain",
     "callingCode": "+973",
     "flag": "🇧🇭",
-    "currency": "BHD"
+    "currency": "BHD",
+    "names": {
+      "es": "Bahréin",
+      "fr": "Bahreïn",
+      "de": "Bahrain",
+      "pt": "Bahrein",
+      "it": "Bahrein",
+      "ja": "バーレーン"
+    }
   },
   {
     "code": "BD",
     "name": "Bangladesh",
     "callingCode": "+880",
     "flag": "🇧🇩",
-    "currency": "BDT"
+    "currency": "BDT",
+    "names": {
+      "es": "Bangladesh",
+      "fr": "Bangladesh",
+      "de": "Bangladesch",
+      "pt": "Bangladesh",
+      "it": "Bangladesh",
+      "ja": "バングラデシュ"
+    }
   },
   {
     "code": "BB",
     "name": "Barbados",
     "callingCode": "+1246",
     "flag": "🇧🇧",
-    "currency": "BBD"
+    "currency": "BBD",
+    "names": {
+      "es": "Barbados",
+      "fr": "Barbade",
+      "de": "Barbados",
+      "pt": "Barbados",
+      "it": "Barbados",
+      "ja": "バルバドス"
+    }
   },
   {
     "code": "BY",
     "name": "Belarus",
     "callingCode": "+375",
     "flag": "🇧🇾",
-    "currency": "BYN"
+    "currency": "BYN",
+    "names": {
+      "es": "Bielorrusia",
+      "fr": "Biélorussie",
+      "de": "Weißrussland",
+      "pt": "Bielorrússia",
+      "it": "Bielorussia",
+      "ja": "ベラルーシ"
+    }
   },
   {
     "code": "BE",
     "name": "Belgium",
     "callingCode": "+32",
     "flag": "🇧🇪",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Bélgica",
+      "fr": "Belgique",
+      "de": "Belgien",
+      "pt": "Bélgica",
+      "it": "Belgio",
+      "ja": "ベルギー"
+    }
   },
   {
     "code": "BZ",
     "name": "Belize",
     "callingCode": "+501",
     "flag": "🇧🇿",
-    "currency": "BZD"
+    "currency": "BZD",
+    "names": {
+      "es": "Belice",
+      "fr": "Belize",
+      "de": "Belize",
+      "pt": "Belize",
+      "it": "Belize",
+      "ja": "ベリーズ"
+    }
   },
   {
     "code": "BJ",
     "name": "Benin",
     "callingCode": "+229",
     "flag": "🇧🇯",
-    "currency": "XOF"
+    "currency": "XOF",
+    "names": {
+      "es": "Benín",
+      "fr": "Bénin",
+      "de": "Benin",
+      "pt": "Benin",
+      "it": "Benin",
+      "ja": "ベナン"
+    }
   },
   {
     "code": "BT",
     "name": "Bhutan",
     "callingCode": "+975",
     "flag": "🇧🇹",
-    "currency": "BTN"
+    "currency": "BTN",
+    "names": {
+      "es": "Bután",
+      "fr": "Bhoutan",
+      "de": "Bhutan",
+      "pt": "Butão",
+      "it": "Bhutan",
+      "ja": "ブータン"
+    }
   },
   {
     "code": "BO",
     "name": "Bolivia",
     "callingCode": "+591",
     "flag": "🇧🇴",
-    "currency": "BOB"
+    "currency": "BOB",
+    "names": {
+      "es": "Bolivia",
+      "fr": "Bolivie",
+      "de": "Bolivien",
+      "pt": "Bolívia",
+      "it": "Bolivia",
+      "ja": "ボリビア"
+    }
   },
   {
     "code": "BA",
     "name": "Bosnia and Herzegovina",
     "callingCode": "+387",
     "flag": "🇧🇦",
-    "currency": "BAM"
+    "currency": "BAM",
+    "names": {
+      "es": "Bosnia y Herzegovina",
+      "fr": "Bosnie-Herzégovine",
+      "de": "Bosnien und Herzegowina",
+      "pt": "Bósnia e Herzegovina",
+      "it": "Bosnia ed Erzegovina",
+      "ja": "ボスニア・ヘルツェゴビナ"
+    }
   },
   {
     "code": "BW",
     "name": "Botswana",
     "callingCode": "+267",
     "flag": "🇧🇼",
-    "currency": "BWP"
+    "currency": "BWP",
+    "names": {
+      "es": "Botsuana",
+      "fr": "Botswana",
+      "de": "Botswana",
+      "pt": "Botsuana",
+      "it": "Botswana",
+      "ja": "ボツワナ"
+    }
   },
   {
     "code": "BR",
     "name": "Brazil",
     "callingCode": "+55",
     "flag": "🇧🇷",
-    "currency": "BRL"
+    "currency": "BRL",
+    "names": {
+      "es": "Brasil",
+      "fr": "Brésil",
+      "de": "Brasilien",
+      "pt": "Brasil",
+      "it": "Brasile",
+      "ja": "ブラジル"
+    }
   },
   {
     "code": "BN",
     "name": "Brunei",
     "callingCode": "+673",
     "flag": "🇧🇳",
-    "currency": "BND"
+    "currency": "BND",
+    "names": {
+      "es": "Brunéi",
+      "fr": "Brunei",
+      "de": "Brunei",
+      "pt": "Brunei",
+      "it": "Brunei",
+      "ja": "ブルネイ"
+    }
   },
   {
     "code": "BG",
     "name": "Bulgaria",
     "callingCode": "+359",
     "flag": "🇧🇬",
-    "currency": "BGN"
+    "currency": "BGN",
+    "names": {
+      "es": "Bulgaria",
+      "fr": "Bulgarie",
+      "de": "Bulgarien",
+      "pt": "Bulgária",
+      "it": "Bulgaria",
+      "ja": "ブルガリア"
+    }
   },
   {
     "code": "BF",
     "name": "Burkina Faso",
     "callingCode": "+226",
     "flag": "🇧🇫",
-    "currency": "XOF"
+    "currency": "XOF",
+    "names": {
+      "es": "Burkina Faso",
+      "fr": "Burkina Faso",
+      "de": "Burkina Faso",
+      "pt": "Burkina Faso",
+      "it": "Burkina Faso",
+      "ja": "ブルキナファソ"
+    }
   },
   {
     "code": "BI",
     "name": "Burundi",
     "callingCode": "+257",
     "flag": "🇧🇮",
-    "currency": "BIF"
+    "currency": "BIF",
+    "names": {
+      "es": "Burundi",
+      "fr": "Burundi",
+      "de": "Burundi",
+      "pt": "Burundi",
+      "it": "Burundi",
+      "ja": "ブルンジ"
+    }
   },
   {
     "code": "KH",
     "name": "Cambodia",
     "callingCode": "+855",
     "flag": "🇰🇭",
-    "currency": "KHR"
+    "currency": "KHR",
+    "names": {
+      "es": "Camboya",
+      "fr": "Cambodge",
+      "de": "Kambodscha",
+      "pt": "Camboja",
+      "it": "Cambogia",
+      "ja": "カンボジア"
+    }
   },
   {
     "code": "CM",
     "name": "Cameroon",
     "callingCode": "+237",
     "flag": "🇨🇲",
-    "currency": "XAF"
+    "currency": "XAF",
+    "names": {
+      "es": "Camerún",
+      "fr": "Cameroun",
+      "de": "Kamerun",
+      "pt": "Camarões",
+      "it": "Camerun",
+      "ja": "カメルーン"
+    }
   },
   {
     "code": "CA",
     "name": "Canada",
     "callingCode": "+1",
     "flag": "🇨🇦",
-    "currency": "CAD"
+    "currency": "CAD",
+    "names": {
+      "es": "Canadá",
+      "fr": "Canada",
+      "de": "Kanada",
+      "pt": "Canadá",
+      "it": "Canada",
+      "ja": "カナダ"
+    }
   },
   {
     "code": "CV",
     "name": "Cape Verde",
     "callingCode": "+238",
     "flag": "🇨🇻",
-    "currency": "CVE"
+    "currency": "CVE",
+    "names": {
+      "es": "Cabo Verde",
+      "fr": "Cap-Vert",
+      "de": "Kap Verde",
+      "pt": "Cabo Verde",
+      "it": "Capo Verde",
+      "ja": "カーボベルデ"
+    }
   },
   {
     "code": "CF",
     "name": "Central African Republic",
     "callingCode": "+236",
     "flag": "🇨🇫",
-    "currency": "XAF"
+    "currency": "XAF",
+    "names": {
+      "es": "República Centroafricana",
+      "fr": "République centrafricaine",
+      "de": "Zentralafrikanische Republik",
+      "pt": "República Centro-Africana",
+      "it": "Repubblica Centrafricana",
+      "ja": "中央アフリカ共和国"
+    }
   },
   {
     "code": "TD",
     "name": "Chad",
     "callingCode": "+235",
     "flag": "🇹🇩",
-    "currency": "XAF"
+    "currency": "XAF",
+    "names": {
+      "es": "Chad",
+      "fr": "Tchad",
+      "de": "Tschad",
+      "pt": "Chade",
+      "it": "Ciad",
+      "ja": "チャド"
+    }
   },
   {
     "code": "CL",
     "name": "Chile",
     "callingCode": "+56",
     "flag": "🇨🇱",
-    "currency": "CLP"
+    "currency": "CLP",
+    "names": {
+      "es": "Chile",
+      "fr": "Chili",
+      "de": "Chile",
+      "pt": "Chile",
+      "it": "Cile",
+      "ja": "チリ"
+    }
   },
   {
     "code": "CN",
     "name": "China",
     "callingCode": "+86",
     "flag": "🇨🇳",
-    "currency": "CNY"
+    "currency": "CNY",
+    "names": {
+      "es": "China",
+      "fr": "Chine",
+      "de": "China",
+      "pt": "China",
+      "it": "Cina",
+      "ja": "中国"
+    }
   },
   {
     "code": "CO",
     "name": "Colombia",
     "callingCode": "+57",
     "flag": "🇨🇴",
-    "currency": "COP"
+    "currency": "COP",
+    "names": {
+      "es": "Colombia",
+      "fr": "Colombie",
+      "de": "Kolumbien",
+      "pt": "Colômbia",
+      "it": "Colombia",
+      "ja": "コロンビア"
+    }
   },
   {
     "code": "KM",
     "name": "Comoros",
     "callingCode": "+269",
     "flag": "🇰🇲",
-    "currency": "KMF"
+    "currency": "KMF",
+    "names": {
+      "es": "Comoras",
+      "fr": "Comores",
+      "de": "Komoren",
+      "pt": "Comores",
+      "it": "Comore",
+      "ja": "コモロ"
+    }
   },
   {
     "code": "CG",
     "name": "Congo",
     "callingCode": "+242",
     "flag": "🇨🇬",
-    "currency": "XAF"
+    "currency": "XAF",
+    "names": {
+      "es": "Congo",
+      "fr": "Congo",
+      "de": "Kongo",
+      "pt": "Congo",
+      "it": "Congo",
+      "ja": "コンゴ"
+    }
   },
   {
     "code": "CD",
     "name": "Congo (Democratic Republic)",
     "callingCode": "+243",
     "flag": "🇨🇩",
-    "currency": "CDF"
+    "currency": "CDF",
+    "names": {
+      "es": "República Democrática del Congo",
+      "fr": "République démocratique du Congo",
+      "de": "Demokratische Republik Kongo",
+      "pt": "República Democrática do Congo",
+      "it": "Repubblica Democratica del Congo",
+      "ja": "コンゴ民主共和国"
+    }
   },
   {
     "code": "CR",
     "name": "Costa Rica",
     "callingCode": "+506",
     "flag": "🇨🇷",
-    "currency": "CRC"
+    "currency": "CRC",
+    "names": {
+      "es": "Costa Rica",
+      "fr": "Costa Rica",
+      "de": "Costa Rica",
+      "pt": "Costa Rica",
+      "it": "Costa Rica",
+      "ja": "コスタリカ"
+    }
   },
   {
     "code": "HR",
     "name": "Croatia",
     "callingCode": "+385",
     "flag": "🇭🇷",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Croacia",
+      "fr": "Croatie",
+      "de": "Kroatien",
+      "pt": "Croácia",
+      "it": "Croazia",
+      "ja": "クロアチア"
+    }
   },
   {
     "code": "CU",
     "name": "Cuba",
     "callingCode": "+53",
     "flag": "🇨🇺",
-    "currency": "CUP"
+    "currency": "CUP",
+    "names": {
+      "es": "Cuba",
+      "fr": "Cuba",
+      "de": "Kuba",
+      "pt": "Cuba",
+      "it": "Cuba",
+      "ja": "キューバ"
+    }
   },
   {
     "code": "CY",
     "name": "Cyprus",
     "callingCode": "+357",
     "flag": "🇨🇾",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Chipre",
+      "fr": "Chypre",
+      "de": "Zypern",
+      "pt": "Chipre",
+      "it": "Cipro",
+      "ja": "キプロス"
+    }
   },
   {
     "code": "CZ",
     "name": "Czech Republic",
     "callingCode": "+420",
     "flag": "🇨🇿",
-    "currency": "CZK"
+    "currency": "CZK",
+    "names": {
+      "es": "República Checa",
+      "fr": "République tchèque",
+      "de": "Tschechien",
+      "pt": "República Tcheca",
+      "it": "Repubblica Ceca",
+      "ja": "チェコ"
+    }
   },
   {
     "code": "DK",
     "name": "Denmark",
     "callingCode": "+45",
     "flag": "🇩🇰",
-    "currency": "DKK"
+    "currency": "DKK",
+    "names": {
+      "es": "Dinamarca",
+      "fr": "Danemark",
+      "de": "Dänemark",
+      "pt": "Dinamarca",
+      "it": "Danimarca",
+      "ja": "デンマーク"
+    }
   },
   {
     "code": "DJ",
     "name": "Djibouti",
     "callingCode": "+253",
     "flag": "🇩🇯",
-    "currency": "DJF"
+    "currency": "DJF",
+    "names": {
+      "es": "Yibuti",
+      "fr": "Djibouti",
+      "de": "Dschibuti",
+      "pt": "Djibuti",
+      "it": "Gibuti",
+      "ja": "ジブチ"
+    }
   },
   {
     "code": "DM",
     "name": "Dominica",
     "callingCode": "+1767",
     "flag": "🇩🇲",
-    "currency": "XCD"
+    "currency": "XCD",
+    "names": {
+      "es": "Dominica",
+      "fr": "Dominique",
+      "de": "Dominica",
+      "pt": "Dominica",
+      "it": "Dominica",
+      "ja": "ドミニカ国"
+    }
   },
   {
     "code": "DO",
     "name": "Dominican Republic",
     "callingCode": "+1809",
     "flag": "🇩🇴",
-    "currency": "DOP"
+    "currency": "DOP",
+    "names": {
+      "es": "República Dominicana",
+      "fr": "République dominicaine",
+      "de": "Dominikanische Republik",
+      "pt": "República Dominicana",
+      "it": "Repubblica Dominicana",
+      "ja": "ドミニカ共和国"
+    }
   },
   {
     "code": "EC",
     "name": "Ecuador",
     "callingCode": "+593",
     "flag": "🇪🇨",
-    "currency": "USD"
+    "currency": "USD",
+    "names": {
+      "es": "Ecuador",
+      "fr": "Équateur",
+      "de": "Ecuador",
+      "pt": "Equador",
+      "it": "Ecuador",
+      "ja": "エクアドル"
+    }
   },
   {
     "code": "EG",
     "name": "Egypt",
     "callingCode": "+20",
     "flag": "🇪🇬",
-    "currency": "EGP"
+    "currency": "EGP",
+    "names": {
+      "es": "Egipto",
+      "fr": "Égypte",
+      "de": "Ägypten",
+      "pt": "Egito",
+      "it": "Egitto",
+      "ja": "エジプト"
+    }
   },
   {
     "code": "SV",
     "name": "El Salvador",
     "callingCode": "+503",
     "flag": "🇸🇻",
-    "currency": "USD"
+    "currency": "USD",
+    "names": {
+      "es": "El Salvador",
+      "fr": "El Salvador",
+      "de": "El Salvador",
+      "pt": "El Salvador",
+      "it": "El Salvador",
+      "ja": "エルサルバドル"
+    }
   },
   {
     "code": "GQ",
     "name": "Equatorial Guinea",
     "callingCode": "+240",
     "flag": "🇬🇶",
-    "currency": "XAF"
+    "currency": "XAF",
+    "names": {
+      "es": "Guinea Ecuatorial",
+      "fr": "Guinée équatoriale",
+      "de": "Äquatorialguinea",
+      "pt": "Guiné Equatorial",
+      "it": "Guinea Equatoriale",
+      "ja": "赤道ギニア"
+    }
   },
   {
     "code": "ER",
     "name": "Eritrea",
     "callingCode": "+291",
     "flag": "🇪🇷",
-    "currency": "ERN"
+    "currency": "ERN",
+    "names": {
+      "es": "Eritrea",
+      "fr": "Érythrée",
+      "de": "Eritrea",
+      "pt": "Eritreia",
+      "it": "Eritrea",
+      "ja": "エリトリア"
+    }
   },
   {
     "code": "EE",
     "name": "Estonia",
     "callingCode": "+372",
     "flag": "🇪🇪",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Estonia",
+      "fr": "Estonie",
+      "de": "Estland",
+      "pt": "Estônia",
+      "it": "Estonia",
+      "ja": "エストニア"
+    }
   },
   {
     "code": "ET",
     "name": "Ethiopia",
     "callingCode": "+251",
     "flag": "🇪🇹",
-    "currency": "ETB"
+    "currency": "ETB",
+    "names": {
+      "es": "Etiopía",
+      "fr": "Éthiopie",
+      "de": "Äthiopien",
+      "pt": "Etiópia",
+      "it": "Etiopia",
+      "ja": "エチオピア"
+    }
   },
   {
     "code": "FJ",
     "name": "Fiji",
     "callingCode": "+679",
     "flag": "🇫🇯",
-    "currency": "FJD"
+    "currency": "FJD",
+    "names": {
+      "es": "Fiyi",
+      "fr": "Fidji",
+      "de": "Fidschi",
+      "pt": "Fiji",
+      "it": "Figi",
+      "ja": "フィジー"
+    }
   },
   {
     "code": "FI",
     "name": "Finland",
     "callingCode": "+358",
     "flag": "🇫🇮",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Finlandia",
+      "fr": "Finlande",
+      "de": "Finnland",
+      "pt": "Finlândia",
+      "it": "Finlandia",
+      "ja": "フィンランド"
+    }
   },
   {
     "code": "FR",
     "name": "France",
     "callingCode": "+33",
     "flag": "🇫🇷",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Francia",
+      "fr": "France",
+      "de": "Frankreich",
+      "pt": "França",
+      "it": "Francia",
+      "ja": "フランス"
+    }
   },
   {
     "code": "GA",
     "name": "Gabon",
     "callingCode": "+241",
     "flag": "🇬🇦",
-    "currency": "XAF"
+    "currency": "XAF",
+    "names": {
+      "es": "Gabón",
+      "fr": "Gabon",
+      "de": "Gabun",
+      "pt": "Gabão",
+      "it": "Gabon",
+      "ja": "ガボン"
+    }
   },
   {
     "code": "GM",
     "name": "Gambia",
     "callingCode": "+220",
     "flag": "🇬🇲",
-    "currency": "GMD"
+    "currency": "GMD",
+    "names": {
+      "es": "Gambia",
+      "fr": "Gambie",
+      "de": "Gambia",
+      "pt": "Gâmbia",
+      "it": "Gambia",
+      "ja": "ガンビア"
+    }
   },
   {
     "code": "GE",
     "name": "Georgia",
     "callingCode": "+995",
     "flag": "🇬🇪",
-    "currency": "GEL"
+    "currency": "GEL",
+    "names": {
+      "es": "Georgia",
+      "fr": "Géorgie",
+      "de": "Georgien",
+      "pt": "Geórgia",
+      "it": "Georgia",
+      "ja": "ジョージア"
+    }
   },
   {
     "code": "DE",
     "name": "Germany",
     "callingCode": "+49",
     "flag": "🇩🇪",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Alemania",
+      "fr": "Allemagne",
+      "de": "Deutschland",
+      "pt": "Alemanha",
+      "it": "Germania",
+      "ja": "ドイツ"
+    }
   },
   {
     "code": "GH",
     "name": "Ghana",
     "callingCode": "+233",
     "flag": "🇬🇭",
-    "currency": "GHS"
+    "currency": "GHS",
+    "names": {
+      "es": "Ghana",
+      "fr": "Ghana",
+      "de": "Ghana",
+      "pt": "Gana",
+      "it": "Ghana",
+      "ja": "ガーナ"
+    }
   },
   {
     "code": "GR",
     "name": "Greece",
     "callingCode": "+30",
     "flag": "🇬🇷",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Grecia",
+      "fr": "Grèce",
+      "de": "Griechenland",
+      "pt": "Grécia",
+      "it": "Grecia",
+      "ja": "ギリシャ"
+    }
   },
   {
     "code": "GD",
     "name": "Grenada",
     "callingCode": "+1473",
     "flag": "🇬🇩",
-    "currency": "XCD"
+    "currency": "XCD",
+    "names": {
+      "es": "Granada",
+      "fr": "Grenade",
+      "de": "Grenada",
+      "pt": "Granada",
+      "it": "Grenada",
+      "ja": "グレナダ"
+    }
   },
   {
     "code": "GT",
     "name": "Guatemala",
     "callingCode": "+502",
     "flag": "🇬🇹",
-    "currency": "GTQ"
+    "currency": "GTQ",
+    "names": {
+      "es": "Guatemala",
+      "fr": "Guatemala",
+      "de": "Guatemala",
+      "pt": "Guatemala",
+      "it": "Guatemala",
+      "ja": "グアテマラ"
+    }
   },
   {
     "code": "GN",
     "name": "Guinea",
     "callingCode": "+224",
     "flag": "🇬🇳",
-    "currency": "GNF"
+    "currency": "GNF",
+    "names": {
+      "es": "Guinea",
+      "fr": "Guinée",
+      "de": "Guinea",
+      "pt": "Guiné",
+      "it": "Guinea",
+      "ja": "ギニア"
+    }
   },
   {
     "code": "GW",
     "name": "Guinea-Bissau",
     "callingCode": "+245",
     "flag": "🇬🇼",
-    "currency": "XOF"
+    "currency": "XOF",
+    "names": {
+      "es": "Guinea-Bisáu",
+      "fr": "Guinée-Bissau",
+      "de": "Guinea-Bissau",
+      "pt": "Guiné-Bissau",
+      "it": "Guinea-Bissau",
+      "ja": "ギニアビサウ"
+    }
   },
   {
     "code": "GY",
     "name": "Guyana",
     "callingCode": "+592",
     "flag": "🇬🇾",
-    "currency": "GYD"
+    "currency": "GYD",
+    "names": {
+      "es": "Guyana",
+      "fr": "Guyane",
+      "de": "Guyana",
+      "pt": "Guiana",
+      "it": "Guyana",
+      "ja": "ガイアナ"
+    }
   },
   {
     "code": "HT",
     "name": "Haiti",
     "callingCode": "+509",
     "flag": "🇭🇹",
-    "currency": "HTG"
+    "currency": "HTG",
+    "names": {
+      "es": "Haití",
+      "fr": "Haïti",
+      "de": "Haiti",
+      "pt": "Haiti",
+      "it": "Haiti",
+      "ja": "ハイチ"
+    }
   },
   {
     "code": "HN",
     "name": "Honduras",
     "callingCode": "+504",
     "flag": "🇭🇳",
-    "currency": "HNL"
+    "currency": "HNL",
+    "names": {
+      "es": "Honduras",
+      "fr": "Honduras",
+      "de": "Honduras",
+      "pt": "Honduras",
+      "it": "Honduras",
+      "ja": "ホンジュラス"
+    }
   },
   {
     "code": "HU",
     "name": "Hungary",
     "callingCode": "+36",
     "flag": "🇭🇺",
-    "currency": "HUF"
+    "currency": "HUF",
+    "names": {
+      "es": "Hungría",
+      "fr": "Hongrie",
+      "de": "Ungarn",
+      "pt": "Hungria",
+      "it": "Ungheria",
+      "ja": "ハンガリー"
+    }
   },
   {
     "code": "IS",
     "name": "Iceland",
     "callingCode": "+354",
     "flag": "🇮🇸",
-    "currency": "ISK"
+    "currency": "ISK",
+    "names": {
+      "es": "Islandia",
+      "fr": "Islande",
+      "de": "Island",
+      "pt": "Islândia",
+      "it": "Islanda",
+      "ja": "アイスランド"
+    }
   },
   {
     "code": "IN",
     "name": "India",
     "callingCode": "+91",
     "flag": "🇮🇳",
-    "currency": "INR"
+    "currency": "INR",
+    "names": {
+      "es": "India",
+      "fr": "Inde",
+      "de": "Indien",
+      "pt": "Índia",
+      "it": "India",
+      "ja": "インド"
+    }
   },
   {
     "code": "ID",
     "name": "Indonesia",
     "callingCode": "+62",
     "flag": "🇮🇩",
-    "currency": "IDR"
+    "currency": "IDR",
+    "names": {
+      "es": "Indonesia",
+      "fr": "Indonésie",
+      "de": "Indonesien",
+      "pt": "Indonésia",
+      "it": "Indonesia",
+      "ja": "インドネシア"
+    }
   },
   {
     "code": "IR",
     "name": "Iran",
     "callingCode": "+98",
     "flag": "🇮🇷",
-    "currency": "IRR"
+    "currency": "IRR",
+    "names": {
+      "es": "Irán",
+      "fr": "Iran",
+      "de": "Iran",
+      "pt": "Irã",
+      "it": "Iran",
+      "ja": "イラン"
+    }
   },
   {
     "code": "IQ",
     "name": "Iraq",
     "callingCode": "+964",
     "flag": "🇮🇶",
-    "currency": "IQD"
+    "currency": "IQD",
+    "names": {
+      "es": "Irak",
+      "fr": "Irak",
+      "de": "Irak",
+      "pt": "Iraque",
+      "it": "Iraq",
+      "ja": "イラク"
+    }
   },
   {
     "code": "IE",
     "name": "Ireland",
     "callingCode": "+353",
     "flag": "🇮🇪",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Irlanda",
+      "fr": "Irlande",
+      "de": "Irland",
+      "pt": "Irlanda",
+      "it": "Irlanda",
+      "ja": "アイルランド"
+    }
   },
   {
     "code": "IL",
     "name": "Israel",
     "callingCode": "+972",
     "flag": "🇮🇱",
-    "currency": "ILS"
+    "currency": "ILS",
+    "names": {
+      "es": "Israel",
+      "fr": "Israël",
+      "de": "Israel",
+      "pt": "Israel",
+      "it": "Israele",
+      "ja": "イスラエル"
+    }
   },
   {
     "code": "IT",
     "name": "Italy",
     "callingCode": "+39",
     "flag": "🇮🇹",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Italia",
+      "fr": "Italie",
+      "de": "Italien",
+      "pt": "Itália",
+      "it": "Italia",
+      "ja": "イタリア"
+    }
   },
   {
     "code": "CI",
     "name": "Ivory Coast",
     "callingCode": "+225",
     "flag": "🇨🇮",
-    "currency": "XOF"
+    "currency": "XOF",
+    "names": {
+      "es": "Costa de Marfil",
+      "fr": "Côte d'Ivoire",
+      "de": "Elfenbeinküste",
+      "pt": "Costa do Marfim",
+      "it": "Costa d'Avorio",
+      "ja": "コートジボワール"
+    }
   },
   {
     "code": "JM",
     "name": "Jamaica",
     "callingCode": "+1876",
     "flag": "🇯🇲",
-    "currency": "JMD"
+    "currency": "JMD",
+    "names": {
+      "es": "Jamaica",
+      "fr": "Jamaïque",
+      "de": "Jamaika",
+      "pt": "Jamaica",
+      "it": "Giamaica",
+      "ja": "ジャマイカ"
+    }
   },
   {
     "code": "JP",
     "name": "Japan",
     "callingCode": "+81",
     "flag": "🇯🇵",
-    "currency": "JPY"
+    "currency": "JPY",
+    "names": {
+      "es": "Japón",
+      "fr": "Japon",
+      "de": "Japan",
+      "pt": "Japão",
+      "it": "Giappone",
+      "ja": "日本"
+    }
   },
   {
     "code": "JO",
     "name": "Jordan",
     "callingCode": "+962",
     "flag": "🇯🇴",
-    "currency": "JOD"
+    "currency": "JOD",
+    "names": {
+      "es": "Jordania",
+      "fr": "Jordanie",
+      "de": "Jordanien",
+      "pt": "Jordânia",
+      "it": "Giordania",
+      "ja": "ヨルダン"
+    }
   },
   {
     "code": "KZ",
     "name": "Kazakhstan",
     "callingCode": "+7",
     "flag": "🇰🇿",
-    "currency": "KZT"
+    "currency": "KZT",
+    "names": {
+      "es": "Kazajistán",
+      "fr": "Kazakhstan",
+      "de": "Kasachstan",
+      "pt": "Cazaquistão",
+      "it": "Kazakistan",
+      "ja": "カザフスタン"
+    }
   },
   {
     "code": "KE",
     "name": "Kenya",
     "callingCode": "+254",
     "flag": "🇰🇪",
-    "currency": "KES"
+    "currency": "KES",
+    "names": {
+      "es": "Kenia",
+      "fr": "Kenya",
+      "de": "Kenia",
+      "pt": "Quênia",
+      "it": "Kenya",
+      "ja": "ケニア"
+    }
   },
   {
     "code": "KI",
     "name": "Kiribati",
     "callingCode": "+686",
     "flag": "🇰🇮",
-    "currency": "AUD"
+    "currency": "AUD",
+    "names": {
+      "es": "Kiribati",
+      "fr": "Kiribati",
+      "de": "Kiribati",
+      "pt": "Kiribati",
+      "it": "Kiribati",
+      "ja": "キリバス"
+    }
   },
   {
     "code": "KW",
     "name": "Kuwait",
     "callingCode": "+965",
     "flag": "🇰🇼",
-    "currency": "KWD"
+    "currency": "KWD",
+    "names": {
+      "es": "Kuwait",
+      "fr": "Koweït",
+      "de": "Kuwait",
+      "pt": "Kuwait",
+      "it": "Kuwait",
+      "ja": "クウェート"
+    }
   },
   {
     "code": "KG",
     "name": "Kyrgyzstan",
     "callingCode": "+996",
     "flag": "🇰🇬",
-    "currency": "KGS"
+    "currency": "KGS",
+    "names": {
+      "es": "Kirguistán",
+      "fr": "Kirghizistan",
+      "de": "Kirgistan",
+      "pt": "Quirguistão",
+      "it": "Kirghizistan",
+      "ja": "キルギスタン"
+    }
   },
   {
     "code": "LA",
     "name": "Laos",
     "callingCode": "+856",
     "flag": "🇱🇦",
-    "currency": "LAK"
+    "currency": "LAK",
+    "names": {
+      "es": "Laos",
+      "fr": "Laos",
+      "de": "Laos",
+      "pt": "Laos",
+      "it": "Laos",
+      "ja": "ラオス"
+    }
   },
   {
     "code": "LV",
     "name": "Latvia",
     "callingCode": "+371",
     "flag": "🇱🇻",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Letonia",
+      "fr": "Lettonie",
+      "de": "Lettland",
+      "pt": "Letônia",
+      "it": "Lettonia",
+      "ja": "ラトビア"
+    }
   },
   {
     "code": "LB",
     "name": "Lebanon",
     "callingCode": "+961",
     "flag": "🇱🇧",
-    "currency": "LBP"
+    "currency": "LBP",
+    "names": {
+      "es": "Líbano",
+      "fr": "Liban",
+      "de": "Libanon",
+      "pt": "Líbano",
+      "it": "Libano",
+      "ja": "レバノン"
+    }
   },
   {
     "code": "LS",
     "name": "Lesotho",
     "callingCode": "+266",
     "flag": "🇱🇸",
-    "currency": "LSL"
+    "currency": "LSL",
+    "names": {
+      "es": "Lesoto",
+      "fr": "Lesotho",
+      "de": "Lesotho",
+      "pt": "Lesoto",
+      "it": "Lesotho",
+      "ja": "レソト"
+    }
   },
   {
     "code": "LR",
     "name": "Liberia",
     "callingCode": "+231",
     "flag": "🇱🇷",
-    "currency": "LRD"
+    "currency": "LRD",
+    "names": {
+      "es": "Liberia",
+      "fr": "Liberia",
+      "de": "Liberia",
+      "pt": "Libéria",
+      "it": "Liberia",
+      "ja": "リベリア"
+    }
   },
   {
     "code": "LY",
     "name": "Libya",
     "callingCode": "+218",
     "flag": "🇱🇾",
-    "currency": "LYD"
+    "currency": "LYD",
+    "names": {
+      "es": "Libia",
+      "fr": "Libye",
+      "de": "Libyen",
+      "pt": "Líbia",
+      "it": "Libia",
+      "ja": "リビア"
+    }
   },
   {
     "code": "LI",
     "name": "Liechtenstein",
     "callingCode": "+423",
     "flag": "🇱🇮",
-    "currency": "CHF"
+    "currency": "CHF",
+    "names": {
+      "es": "Liechtenstein",
+      "fr": "Liechtenstein",
+      "de": "Liechtenstein",
+      "pt": "Liechtenstein",
+      "it": "Liechtenstein",
+      "ja": "リヒテンシュタイン"
+    }
   },
   {
     "code": "LT",
     "name": "Lithuania",
     "callingCode": "+370",
     "flag": "🇱🇹",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Lituania",
+      "fr": "Lituanie",
+      "de": "Litauen",
+      "pt": "Lituânia",
+      "it": "Lituania",
+      "ja": "リトアニア"
+    }
   },
   {
     "code": "LU",
     "name": "Luxembourg",
     "callingCode": "+352",
     "flag": "🇱🇺",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Luxemburgo",
+      "fr": "Luxembourg",
+      "de": "Luxemburg",
+      "pt": "Luxemburgo",
+      "it": "Lussemburgo",
+      "ja": "ルクセンブルク"
+    }
   },
   {
     "code": "MG",
     "name": "Madagascar",
     "callingCode": "+261",
     "flag": "🇲🇬",
-    "currency": "MGA"
+    "currency": "MGA",
+    "names": {
+      "es": "Madagascar",
+      "fr": "Madagascar",
+      "de": "Madagaskar",
+      "pt": "Madagascar",
+      "it": "Madagascar",
+      "ja": "マダガスカル"
+    }
   },
   {
     "code": "MW",
     "name": "Malawi",
     "callingCode": "+265",
     "flag": "🇲🇼",
-    "currency": "MWK"
+    "currency": "MWK",
+    "names": {
+      "es": "Malaui",
+      "fr": "Malawi",
+      "de": "Malawi",
+      "pt": "Malaui",
+      "it": "Malawi",
+      "ja": "マラウイ"
+    }
   },
   {
     "code": "MY",
     "name": "Malaysia",
     "callingCode": "+60",
     "flag": "🇲🇾",
-    "currency": "MYR"
+    "currency": "MYR",
+    "names": {
+      "es": "Malasia",
+      "fr": "Malaisie",
+      "de": "Malaysia",
+      "pt": "Malásia",
+      "it": "Malesia",
+      "ja": "マレーシア"
+    }
   },
   {
     "code": "MV",
     "name": "Maldives",
     "callingCode": "+960",
     "flag": "🇲🇻",
-    "currency": "MVR"
+    "currency": "MVR",
+    "names": {
+      "es": "Maldivas",
+      "fr": "Maldives",
+      "de": "Malediven",
+      "pt": "Maldivas",
+      "it": "Maldive",
+      "ja": "モルディブ"
+    }
   },
   {
     "code": "ML",
     "name": "Mali",
     "callingCode": "+223",
     "flag": "🇲🇱",
-    "currency": "XOF"
+    "currency": "XOF",
+    "names": {
+      "es": "Mali",
+      "fr": "Mali",
+      "de": "Mali",
+      "pt": "Mali",
+      "it": "Mali",
+      "ja": "マリ"
+    }
   },
   {
     "code": "MT",
     "name": "Malta",
     "callingCode": "+356",
     "flag": "🇲🇹",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Malta",
+      "fr": "Malte",
+      "de": "Malta",
+      "pt": "Malta",
+      "it": "Malta",
+      "ja": "マルタ"
+    }
   },
   {
     "code": "MH",
     "name": "Marshall Islands",
     "callingCode": "+692",
     "flag": "🇲🇭",
-    "currency": "USD"
+    "currency": "USD",
+    "names": {
+      "es": "Islas Marshall",
+      "fr": "Îles Marshall",
+      "de": "Marshallinseln",
+      "pt": "Ilhas Marshall",
+      "it": "Isole Marshall",
+      "ja": "マーシャル諸島"
+    }
   },
   {
     "code": "MR",
     "name": "Mauritania",
     "callingCode": "+222",
     "flag": "🇲🇷",
-    "currency": "MRU"
+    "currency": "MRU",
+    "names": {
+      "es": "Mauritania",
+      "fr": "Mauritanie",
+      "de": "Mauretanien",
+      "pt": "Mauritânia",
+      "it": "Mauritania",
+      "ja": "モーリタニア"
+    }
   },
   {
     "code": "MU",
     "name": "Mauritius",
     "callingCode": "+230",
     "flag": "🇲🇺",
-    "currency": "MUR"
+    "currency": "MUR",
+    "names": {
+      "es": "Mauricio",
+      "fr": "Maurice",
+      "de": "Mauritius",
+      "pt": "Maurício",
+      "it": "Mauritius",
+      "ja": "モーリシャス"
+    }
   },
   {
     "code": "MX",
     "name": "Mexico",
     "callingCode": "+52",
     "flag": "🇲🇽",
-    "currency": "MXN"
+    "currency": "MXN",
+    "names": {
+      "es": "México",
+      "fr": "Mexique",
+      "de": "Mexiko",
+      "pt": "México",
+      "it": "Messico",
+      "ja": "メキシコ"
+    }
   },
   {
     "code": "FM",
     "name": "Micronesia",
     "callingCode": "+691",
     "flag": "🇫🇲",
-    "currency": "USD"
+    "currency": "USD",
+    "names": {
+      "es": "Micronesia",
+      "fr": "Micronésie",
+      "de": "Mikronesien",
+      "pt": "Micronésia",
+      "it": "Micronesia",
+      "ja": "ミクロネシア"
+    }
   },
   {
     "code": "MD",
     "name": "Moldova",
     "callingCode": "+373",
     "flag": "🇲🇩",
-    "currency": "MDL"
+    "currency": "MDL",
+    "names": {
+      "es": "Moldavia",
+      "fr": "Moldavie",
+      "de": "Moldawien",
+      "pt": "Moldávia",
+      "it": "Moldavia",
+      "ja": "モルドバ"
+    }
   },
   {
     "code": "MC",
     "name": "Monaco",
     "callingCode": "+377",
     "flag": "🇲🇨",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Mónaco",
+      "fr": "Monaco",
+      "de": "Monaco",
+      "pt": "Mônaco",
+      "it": "Monaco",
+      "ja": "モナコ"
+    }
   },
   {
     "code": "MN",
     "name": "Mongolia",
     "callingCode": "+976",
     "flag": "🇲🇳",
-    "currency": "MNT"
+    "currency": "MNT",
+    "names": {
+      "es": "Mongolia",
+      "fr": "Mongolie",
+      "de": "Mongolei",
+      "pt": "Mongólia",
+      "it": "Mongolia",
+      "ja": "モンゴル"
+    }
   },
   {
     "code": "ME",
     "name": "Montenegro",
     "callingCode": "+382",
     "flag": "🇲🇪",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Montenegro",
+      "fr": "Monténégro",
+      "de": "Montenegro",
+      "pt": "Montenegro",
+      "it": "Montenegro",
+      "ja": "モンテネグロ"
+    }
   },
   {
     "code": "MA",
     "name": "Morocco",
     "callingCode": "+212",
     "flag": "🇲🇦",
-    "currency": "MAD"
+    "currency": "MAD",
+    "names": {
+      "es": "Marruecos",
+      "fr": "Maroc",
+      "de": "Marokko",
+      "pt": "Marrocos",
+      "it": "Marocco",
+      "ja": "モロッコ"
+    }
   },
   {
     "code": "MZ",
     "name": "Mozambique",
     "callingCode": "+258",
     "flag": "🇲🇿",
-    "currency": "MZN"
+    "currency": "MZN",
+    "names": {
+      "es": "Mozambique",
+      "fr": "Mozambique",
+      "de": "Mosambik",
+      "pt": "Moçambique",
+      "it": "Mozambico",
+      "ja": "モザンビーク"
+    }
   },
   {
     "code": "MM",
     "name": "Myanmar",
     "callingCode": "+95",
     "flag": "🇲🇲",
-    "currency": "MMK"
+    "currency": "MMK",
+    "names": {
+      "es": "Birmania",
+      "fr": "Birmanie",
+      "de": "Myanmar",
+      "pt": "Mianmar",
+      "it": "Birmania",
+      "ja": "ミャンマー"
+    }
   },
   {
     "code": "NA",
     "name": "Namibia",
     "callingCode": "+264",
     "flag": "🇳🇦",
-    "currency": "NAD"
+    "currency": "NAD",
+    "names": {
+      "es": "Namibia",
+      "fr": "Namibie",
+      "de": "Namibia",
+      "pt": "Namíbia",
+      "it": "Namibia",
+      "ja": "ナミビア"
+    }
   },
   {
     "code": "NR",
     "name": "Nauru",
     "callingCode": "+674",
     "flag": "🇳🇷",
-    "currency": "AUD"
+    "currency": "AUD",
+    "names": {
+      "es": "Nauru",
+      "fr": "Nauru",
+      "de": "Nauru",
+      "pt": "Nauru",
+      "it": "Nauru",
+      "ja": "ナウル"
+    }
   },
   {
     "code": "NP",
     "name": "Nepal",
     "callingCode": "+977",
     "flag": "🇳🇵",
-    "currency": "NPR"
+    "currency": "NPR",
+    "names": {
+      "es": "Nepal",
+      "fr": "Népal",
+      "de": "Nepal",
+      "pt": "Nepal",
+      "it": "Nepal",
+      "ja": "ネパール"
+    }
   },
   {
     "code": "NL",
     "name": "Netherlands",
     "callingCode": "+31",
     "flag": "🇳🇱",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Países Bajos",
+      "fr": "Pays-Bas",
+      "de": "Niederlande",
+      "pt": "Países Baixos",
+      "it": "Paesi Bassi",
+      "ja": "オランダ"
+    }
   },
   {
     "code": "NZ",
     "name": "New Zealand",
     "callingCode": "+64",
     "flag": "🇳🇿",
-    "currency": "NZD"
+    "currency": "NZD",
+    "names": {
+      "es": "Nueva Zelanda",
+      "fr": "Nouvelle-Zélande",
+      "de": "Neuseeland",
+      "pt": "Nova Zelândia",
+      "it": "Nuova Zelanda",
+      "ja": "ニュージーランド"
+    }
   },
   {
     "code": "NI",
     "name": "Nicaragua",
     "callingCode": "+505",
     "flag": "🇳🇮",
-    "currency": "NIO"
+    "currency": "NIO",
+    "names": {
+      "es": "Nicaragua",
+      "fr": "Nicaragua",
+      "de": "Nicaragua",
+      "pt": "Nicarágua",
+      "it": "Nicaragua",
+      "ja": "ニカラグア"
+    }
   },
   {
     "code": "NE",
     "name": "Niger",
     "callingCode": "+227",
     "flag": "🇳🇪",
-    "currency": "XOF"
+    "currency": "XOF",
+    "names": {
+      "es": "Níger",
+      "fr": "Niger",
+      "de": "Niger",
+      "pt": "Níger",
+      "it": "Niger",
+      "ja": "ニジェール"
+    }
   },
   {
     "code": "NG",
     "name": "Nigeria",
     "callingCode": "+234",
     "flag": "🇳🇬",
-    "currency": "NGN"
+    "currency": "NGN",
+    "names": {
+      "es": "Nigeria",
+      "fr": "Nigéria",
+      "de": "Nigeria",
+      "pt": "Nigéria",
+      "it": "Nigeria",
+      "ja": "ナイジェリア"
+    }
   },
   {
     "code": "KP",
     "name": "North Korea",
     "callingCode": "+850",
     "flag": "🇰🇵",
-    "currency": "KPW"
+    "currency": "KPW",
+    "names": {
+      "es": "Corea del Norte",
+      "fr": "Corée du Nord",
+      "de": "Nordkorea",
+      "pt": "Coreia do Norte",
+      "it": "Corea del Nord",
+      "ja": "北朝鮮"
+    }
   },
   {
     "code": "MK",
     "name": "North Macedonia",
     "callingCode": "+389",
     "flag": "🇲🇰",
-    "currency": "MKD"
+    "currency": "MKD",
+    "names": {
+      "es": "Macedonia del Norte",
+      "fr": "Macédoine du Nord",
+      "de": "Nordmazedonien",
+      "pt": "Macedônia do Norte",
+      "it": "Macedonia del Nord",
+      "ja": "北マケドニア"
+    }
   },
   {
     "code": "NO",
     "name": "Norway",
     "callingCode": "+47",
     "flag": "🇳🇴",
-    "currency": "NOK"
+    "currency": "NOK",
+    "names": {
+      "es": "Noruega",
+      "fr": "Norvège",
+      "de": "Norwegen",
+      "pt": "Noruega",
+      "it": "Norvegia",
+      "ja": "ノルウェー"
+    }
   },
   {
     "code": "OM",
     "name": "Oman",
     "callingCode": "+968",
     "flag": "🇴🇲",
-    "currency": "OMR"
+    "currency": "OMR",
+    "names": {
+      "es": "Omán",
+      "fr": "Oman",
+      "de": "Oman",
+      "pt": "Omã",
+      "it": "Oman",
+      "ja": "オマーン"
+    }
   },
   {
     "code": "PK",
     "name": "Pakistan",
     "callingCode": "+92",
     "flag": "🇵🇰",
-    "currency": "PKR"
+    "currency": "PKR",
+    "names": {
+      "es": "Pakistán",
+      "fr": "Pakistan",
+      "de": "Pakistan",
+      "pt": "Paquistão",
+      "it": "Pakistan",
+      "ja": "パキスタン"
+    }
   },
   {
     "code": "PW",
     "name": "Palau",
     "callingCode": "+680",
     "flag": "🇵🇼",
-    "currency": "USD"
+    "currency": "USD",
+    "names": {
+      "es": "Palaos",
+      "fr": "Palaos",
+      "de": "Palau",
+      "pt": "Palau",
+      "it": "Palau",
+      "ja": "パラオ"
+    }
   },
   {
     "code": "PS",
     "name": "Palestine",
     "callingCode": "+970",
     "flag": "🇵🇸",
-    "currency": "ILS"
+    "currency": "ILS",
+    "names": {
+      "es": "Palestina",
+      "fr": "Palestine",
+      "de": "Palästina",
+      "pt": "Palestina",
+      "it": "Palestina",
+      "ja": "パレスチナ"
+    }
   },
   {
     "code": "PA",
     "name": "Panama",
     "callingCode": "+507",
     "flag": "🇵🇦",
-    "currency": "PAB"
+    "currency": "PAB",
+    "names": {
+      "es": "Panamá",
+      "fr": "Panama",
+      "de": "Panama",
+      "pt": "Panamá",
+      "it": "Panama",
+      "ja": "パナマ"
+    }
   },
   {
     "code": "PG",
     "name": "Papua New Guinea",
     "callingCode": "+675",
     "flag": "🇵🇬",
-    "currency": "PGK"
+    "currency": "PGK",
+    "names": {
+      "es": "Papúa Nueva Guinea",
+      "fr": "Papouasie-Nouvelle-Guinée",
+      "de": "Papua-Neuguinea",
+      "pt": "Papua-Nova Guiné",
+      "it": "Papua Nuova Guinea",
+      "ja": "パプアニューギニア"
+    }
   },
   {
     "code": "PY",
     "name": "Paraguay",
     "callingCode": "+595",
     "flag": "🇵🇾",
-    "currency": "PYG"
+    "currency": "PYG",
+    "names": {
+      "es": "Paraguay",
+      "fr": "Paraguay",
+      "de": "Paraguay",
+      "pt": "Paraguai",
+      "it": "Paraguay",
+      "ja": "パラグアイ"
+    }
   },
   {
     "code": "PE",
     "name": "Peru",
     "callingCode": "+51",
     "flag": "🇵🇪",
-    "currency": "PEN"
+    "currency": "PEN",
+    "names": {
+      "es": "Perú",
+      "fr": "Pérou",
+      "de": "Peru",
+      "pt": "Peru",
+      "it": "Perù",
+      "ja": "ペルー"
+    }
   },
   {
     "code": "PH",
     "name": "Philippines",
     "callingCode": "+63",
     "flag": "🇵🇭",
-    "currency": "PHP"
+    "currency": "PHP",
+    "names": {
+      "es": "Filipinas",
+      "fr": "Philippines",
+      "de": "Philippinen",
+      "pt": "Filipinas",
+      "it": "Filippine",
+      "ja": "フィリピン"
+    }
   },
   {
     "code": "PL",
     "name": "Poland",
     "callingCode": "+48",
     "flag": "🇵🇱",
-    "currency": "PLN"
+    "currency": "PLN",
+    "names": {
+      "es": "Polonia",
+      "fr": "Pologne",
+      "de": "Polen",
+      "pt": "Polônia",
+      "it": "Polonia",
+      "ja": "ポーランド"
+    }
   },
   {
     "code": "PT",
     "name": "Portugal",
     "callingCode": "+351",
     "flag": "🇵🇹",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Portugal",
+      "fr": "Portugal",
+      "de": "Portugal",
+      "pt": "Portugal",
+      "it": "Portogallo",
+      "ja": "ポルトガル"
+    }
   },
   {
     "code": "QA",
     "name": "Qatar",
     "callingCode": "+974",
     "flag": "🇶🇦",
-    "currency": "QAR"
+    "currency": "QAR",
+    "names": {
+      "es": "Catar",
+      "fr": "Qatar",
+      "de": "Katar",
+      "pt": "Qatar",
+      "it": "Qatar",
+      "ja": "カタール"
+    }
   },
   {
     "code": "RO",
     "name": "Romania",
     "callingCode": "+40",
     "flag": "🇷🇴",
-    "currency": "RON"
+    "currency": "RON",
+    "names": {
+      "es": "Rumania",
+      "fr": "Roumanie",
+      "de": "Rumänien",
+      "pt": "Romênia",
+      "it": "Romania",
+      "ja": "ルーマニア"
+    }
   },
   {
     "code": "RU",
     "name": "Russia",
     "callingCode": "+7",
     "flag": "🇷🇺",
-    "currency": "RUB"
+    "currency": "RUB",
+    "names": {
+      "es": "Rusia",
+      "fr": "Russie",
+      "de": "Russland",
+      "pt": "Rússia",
+      "it": "Russia",
+      "ja": "ロシア"
+    }
   },
   {
     "code": "RW",
     "name": "Rwanda",
     "callingCode": "+250",
     "flag": "🇷🇼",
-    "currency": "RWF"
+    "currency": "RWF",
+    "names": {
+      "es": "Ruanda",
+      "fr": "Rwanda",
+      "de": "Ruanda",
+      "pt": "Ruanda",
+      "it": "Ruanda",
+      "ja": "ルワンダ"
+    }
   },
   {
     "code": "KN",
     "name": "Saint Kitts and Nevis",
     "callingCode": "+1869",
     "flag": "🇰🇳",
-    "currency": "XCD"
+    "currency": "XCD",
+    "names": {
+      "es": "San Cristóbal y Nieves",
+      "fr": "Saint-Christophe-et-Nieves",
+      "de": "St. Kitts und Nevis",
+      "pt": "São Cristóvão e Neves",
+      "it": "Saint Kitts e Nevis",
+      "ja": "セントクリストファー・ネイビス"
+    }
   },
   {
     "code": "LC",
     "name": "Saint Lucia",
     "callingCode": "+1758",
     "flag": "🇱🇨",
-    "currency": "XCD"
+    "currency": "XCD",
+    "names": {
+      "es": "Santa Lucía",
+      "fr": "Sainte-Lucie",
+      "de": "St. Lucia",
+      "pt": "Santa Lucia",
+      "it": "Santa Lucia",
+      "ja": "セントルシア"
+    }
   },
   {
     "code": "VC",
     "name": "Saint Vincent and the Grenadines",
     "callingCode": "+1784",
     "flag": "🇻🇨",
-    "currency": "XCD"
+    "currency": "XCD",
+    "names": {
+      "es": "San Vicente y las Granadinas",
+      "fr": "Saint-Vincent-et-les-Grenadines",
+      "de": "St. Vincent und die Grenadinen",
+      "pt": "São Vicente e Granadinas",
+      "it": "Saint Vincent e Grenadine",
+      "ja": "セントビンセント・グレナディーン"
+    }
   },
   {
     "code": "WS",
     "name": "Samoa",
     "callingCode": "+685",
     "flag": "🇼🇸",
-    "currency": "WST"
+    "currency": "WST",
+    "names": {
+      "es": "Samoa",
+      "fr": "Samoa",
+      "de": "Samoa",
+      "pt": "Samoa",
+      "it": "Samoa",
+      "ja": "サモア"
+    }
   },
   {
     "code": "SM",
     "name": "San Marino",
     "callingCode": "+378",
     "flag": "🇸🇲",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "San Marino",
+      "fr": "Saint-Marin",
+      "de": "San Marino",
+      "pt": "San Marino",
+      "it": "San Marino",
+      "ja": "サンマリノ"
+    }
   },
   {
     "code": "ST",
     "name": "Sao Tome and Principe",
     "callingCode": "+239",
     "flag": "🇸🇹",
-    "currency": "STN"
+    "currency": "STN",
+    "names": {
+      "es": "Santo Tomé y Príncipe",
+      "fr": "Sao Tomé-et-Principe",
+      "de": "São Tomé und Príncipe",
+      "pt": "São Tomé e Príncipe",
+      "it": "São Tomé e Príncipe",
+      "ja": "サントメ・プリンシペ"
+    }
   },
   {
     "code": "SA",
     "name": "Saudi Arabia",
     "callingCode": "+966",
     "flag": "🇸🇦",
-    "currency": "SAR"
+    "currency": "SAR",
+    "names": {
+      "es": "Arabia Saudita",
+      "fr": "Arabie Saoudite",
+      "de": "Saudi-Arabien",
+      "pt": "Arábia Saudita",
+      "it": "Arabia Saudita",
+      "ja": "サウジアラビア"
+    }
   },
   {
     "code": "SN",
     "name": "Senegal",
     "callingCode": "+221",
     "flag": "🇸🇳",
-    "currency": "XOF"
+    "currency": "XOF",
+    "names": {
+      "es": "Senegal",
+      "fr": "Sénégal",
+      "de": "Senegal",
+      "pt": "Senegal",
+      "it": "Senegal",
+      "ja": "セネガル"
+    }
   },
   {
     "code": "RS",
     "name": "Serbia",
     "callingCode": "+381",
     "flag": "🇷🇸",
-    "currency": "RSD"
+    "currency": "RSD",
+    "names": {
+      "es": "Serbia",
+      "fr": "Serbie",
+      "de": "Serbien",
+      "pt": "Sérvia",
+      "it": "Serbia",
+      "ja": "セルビア"
+    }
   },
   {
     "code": "SC",
     "name": "Seychelles",
     "callingCode": "+248",
     "flag": "🇸🇨",
-    "currency": "SCR"
+    "currency": "SCR",
+    "names": {
+      "es": "Seychelles",
+      "fr": "Seychelles",
+      "de": "Seychellen",
+      "pt": "Seicheles",
+      "it": "Seychelles",
+      "ja": "セーシェル"
+    }
   },
   {
     "code": "SL",
     "name": "Sierra Leone",
     "callingCode": "+232",
     "flag": "🇸🇱",
-    "currency": "SLL"
+    "currency": "SLL",
+    "names": {
+      "es": "Sierra Leona",
+      "fr": "Sierra Leone",
+      "de": "Sierra Leone",
+      "pt": "Serra Leoa",
+      "it": "Sierra Leone",
+      "ja": "シエラレオネ"
+    }
   },
   {
     "code": "SG",
     "name": "Singapore",
     "callingCode": "+65",
     "flag": "🇸🇬",
-    "currency": "SGD"
+    "currency": "SGD",
+    "names": {
+      "es": "Singapur",
+      "fr": "Singapour",
+      "de": "Singapur",
+      "pt": "Singapura",
+      "it": "Singapore",
+      "ja": "シンガポール"
+    }
   },
   {
     "code": "SK",
     "name": "Slovakia",
     "callingCode": "+421",
     "flag": "🇸🇰",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Eslovaquia",
+      "fr": "Slovaquie",
+      "de": "Slowakei",
+      "pt": "Eslováquia",
+      "it": "Slovacchia",
+      "ja": "スロバキア"
+    }
   },
   {
     "code": "SI",
     "name": "Slovenia",
     "callingCode": "+386",
     "flag": "🇸🇮",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Eslovenia",
+      "fr": "Slovénie",
+      "de": "Slowenien",
+      "pt": "Eslovênia",
+      "it": "Slovenia",
+      "ja": "スロベニア"
+    }
   },
   {
     "code": "SB",
     "name": "Solomon Islands",
     "callingCode": "+677",
     "flag": "🇸🇧",
-    "currency": "SBD"
+    "currency": "SBD",
+    "names": {
+      "es": "Islas Salomón",
+      "fr": "Îles Salomon",
+      "de": "Salomonen",
+      "pt": "Ilhas Salomão",
+      "it": "Isole Salomone",
+      "ja": "ソロモン諸島"
+    }
   },
   {
     "code": "SO",
     "name": "Somalia",
     "callingCode": "+252",
     "flag": "🇸🇴",
-    "currency": "SOS"
+    "currency": "SOS",
+    "names": {
+      "es": "Somalia",
+      "fr": "Somalie",
+      "de": "Somalia",
+      "pt": "Somália",
+      "it": "Somalia",
+      "ja": "ソマリア"
+    }
   },
   {
     "code": "ZA",
     "name": "South Africa",
     "callingCode": "+27",
     "flag": "🇿🇦",
-    "currency": "ZAR"
+    "currency": "ZAR",
+    "names": {
+      "es": "Sudáfrica",
+      "fr": "Afrique du Sud",
+      "de": "Südafrika",
+      "pt": "África do Sul",
+      "it": "Sudafrica",
+      "ja": "南アフリカ"
+    }
   },
   {
     "code": "KR",
     "name": "South Korea",
     "callingCode": "+82",
     "flag": "🇰🇷",
-    "currency": "KRW"
+    "currency": "KRW",
+    "names": {
+      "es": "Corea del Sur",
+      "fr": "Corée du Sud",
+      "de": "Südkorea",
+      "pt": "Coreia do Sul",
+      "it": "Corea del Sud",
+      "ja": "韓国"
+    }
   },
   {
     "code": "SS",
     "name": "South Sudan",
     "callingCode": "+211",
     "flag": "🇸🇸",
-    "currency": "SSP"
+    "currency": "SSP",
+    "names": {
+      "es": "Sudán del Sur",
+      "fr": "Soudan du Sud",
+      "de": "Südsudan",
+      "pt": "Sudão do Sul",
+      "it": "Sud Sudan",
+      "ja": "南スーダン"
+    }
   },
   {
     "code": "ES",
     "name": "Spain",
     "callingCode": "+34",
     "flag": "🇪🇸",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "España",
+      "fr": "Espagne",
+      "de": "Spanien",
+      "pt": "Espanha",
+      "it": "Spagna",
+      "ja": "スペイン"
+    }
   },
   {
     "code": "LK",
     "name": "Sri Lanka",
     "callingCode": "+94",
     "flag": "🇱🇰",
-    "currency": "LKR"
+    "currency": "LKR",
+    "names": {
+      "es": "Sri Lanka",
+      "fr": "Sri Lanka",
+      "de": "Sri Lanka",
+      "pt": "Sri Lanka",
+      "it": "Sri Lanka",
+      "ja": "スリランカ"
+    }
   },
   {
     "code": "SD",
     "name": "Sudan",
     "callingCode": "+249",
     "flag": "🇸🇩",
-    "currency": "SDG"
+    "currency": "SDG",
+    "names": {
+      "es": "Sudán",
+      "fr": "Soudan",
+      "de": "Sudan",
+      "pt": "Sudão",
+      "it": "Sudan",
+      "ja": "スーダン"
+    }
   },
   {
     "code": "SR",
     "name": "Suriname",
     "callingCode": "+597",
     "flag": "🇸🇷",
-    "currency": "SRD"
+    "currency": "SRD",
+    "names": {
+      "es": "Surinam",
+      "fr": "Suriname",
+      "de": "Surinam",
+      "pt": "Surinã",
+      "it": "Suriname",
+      "ja": "スリナム"
+    }
   },
   {
     "code": "SE",
     "name": "Sweden",
     "callingCode": "+46",
     "flag": "🇸🇪",
-    "currency": "SEK"
+    "currency": "SEK",
+    "names": {
+      "es": "Suecia",
+      "fr": "Suède",
+      "de": "Schweden",
+      "pt": "Suécia",
+      "it": "Svezia",
+      "ja": "スウェーデン"
+    }
   },
   {
     "code": "CH",
     "name": "Switzerland",
     "callingCode": "+41",
     "flag": "🇨🇭",
-    "currency": "CHF"
+    "currency": "CHF",
+    "names": {
+      "es": "Suiza",
+      "fr": "Suisse",
+      "de": "Schweiz",
+      "pt": "Suíça",
+      "it": "Svizzera",
+      "ja": "スイス"
+    }
   },
   {
     "code": "SY",
     "name": "Syria",
     "callingCode": "+963",
     "flag": "🇸🇾",
-    "currency": "SYP"
+    "currency": "SYP",
+    "names": {
+      "es": "Siria",
+      "fr": "Syrie",
+      "de": "Syrien",
+      "pt": "Síria",
+      "it": "Siria",
+      "ja": "シリア"
+    }
   },
   {
     "code": "TW",
     "name": "Taiwan",
     "callingCode": "+886",
     "flag": "🇹🇼",
-    "currency": "TWD"
+    "currency": "TWD",
+    "names": {
+      "es": "Taiwán",
+      "fr": "Taïwan",
+      "de": "Taiwan",
+      "pt": "Taiwan",
+      "it": "Taiwan",
+      "ja": "台湾"
+    }
   },
   {
     "code": "TJ",
     "name": "Tajikistan",
     "callingCode": "+992",
     "flag": "🇹🇯",
-    "currency": "TJS"
+    "currency": "TJS",
+    "names": {
+      "es": "Tayikistán",
+      "fr": "Tadjikistan",
+      "de": "Tadschikistan",
+      "pt": "Tajiquistão",
+      "it": "Tagikistan",
+      "ja": "タジキスタン"
+    }
   },
   {
     "code": "TZ",
     "name": "Tanzania",
     "callingCode": "+255",
     "flag": "🇹🇿",
-    "currency": "TZS"
+    "currency": "TZS",
+    "names": {
+      "es": "Tanzania",
+      "fr": "Tanzanie",
+      "de": "Tansania",
+      "pt": "Tanzânia",
+      "it": "Tanzania",
+      "ja": "タンザニア"
+    }
   },
   {
     "code": "TH",
     "name": "Thailand",
     "callingCode": "+66",
     "flag": "🇹🇭",
-    "currency": "THB"
+    "currency": "THB",
+    "names": {
+      "es": "Tailandia",
+      "fr": "Thaïlande",
+      "de": "Thailand",
+      "pt": "Tailândia",
+      "it": "Tailandia",
+      "ja": "タイ"
+    }
   },
   {
     "code": "TL",
     "name": "Timor-Leste",
     "callingCode": "+670",
     "flag": "🇹🇱",
-    "currency": "USD"
+    "currency": "USD",
+    "names": {
+      "es": "Timor Oriental",
+      "fr": "Timor oriental",
+      "de": "Osttimor",
+      "pt": "Timor Leste",
+      "it": "Timor Est",
+      "ja": "東ティモール"
+    }
   },
   {
     "code": "TG",
     "name": "Togo",
     "callingCode": "+228",
     "flag": "🇹🇬",
-    "currency": "XOF"
+    "currency": "XOF",
+    "names": {
+      "es": "Togo",
+      "fr": "Togo",
+      "de": "Togo",
+      "pt": "Togo",
+      "it": "Togo",
+      "ja": "トーゴ"
+    }
   },
   {
     "code": "TO",
     "name": "Tonga",
     "callingCode": "+676",
     "flag": "🇹🇴",
-    "currency": "TOP"
+    "currency": "TOP",
+    "names": {
+      "es": "Tonga",
+      "fr": "Tonga",
+      "de": "Tonga",
+      "pt": "Tonga",
+      "it": "Tonga",
+      "ja": "トンガ"
+    }
   },
   {
     "code": "TT",
     "name": "Trinidad and Tobago",
     "callingCode": "+1868",
     "flag": "🇹🇹",
-    "currency": "TTD"
+    "currency": "TTD",
+    "names": {
+      "es": "Trinidad y Tobago",
+      "fr": "Trinité-et-Tobago",
+      "de": "Trinidad und Tobago",
+      "pt": "Trinidad e Tobago",
+      "it": "Trinidad e Tobago",
+      "ja": "トリニダード・トバゴ"
+    }
   },
   {
     "code": "TN",
     "name": "Tunisia",
     "callingCode": "+216",
     "flag": "🇹🇳",
-    "currency": "TND"
+    "currency": "TND",
+    "names": {
+      "es": "Túnez",
+      "fr": "Tunisie",
+      "de": "Tunesien",
+      "pt": "Tunísia",
+      "it": "Tunisia",
+      "ja": "チュニジア"
+    }
   },
   {
     "code": "TR",
     "name": "Turkey",
     "callingCode": "+90",
     "flag": "🇹🇷",
-    "currency": "TRY"
+    "currency": "TRY",
+    "names": {
+      "es": "Turquía",
+      "fr": "Turquie",
+      "de": "Türkei",
+      "pt": "Turquia",
+      "it": "Turchia",
+      "ja": "トルコ"
+    }
   },
   {
     "code": "TM",
     "name": "Turkmenistan",
     "callingCode": "+993",
     "flag": "🇹🇲",
-    "currency": "TMT"
+    "currency": "TMT",
+    "names": {
+      "es": "Turkmenistán",
+      "fr": "Turkménistan",
+      "de": "Turkmenistan",
+      "pt": "Turcomenistão",
+      "it": "Turkmenistan",
+      "ja": "トルクメニスタン"
+    }
   },
   {
     "code": "TV",
     "name": "Tuvalu",
     "callingCode": "+688",
     "flag": "🇹🇻",
-    "currency": "AUD"
+    "currency": "AUD",
+    "names": {
+      "es": "Tuvalu",
+      "fr": "Tuvalu",
+      "de": "Tuvalu",
+      "pt": "Tuvalu",
+      "it": "Tuvalu",
+      "ja": "ツバル"
+    }
   },
   {
     "code": "UG",
     "name": "Uganda",
     "callingCode": "+256",
     "flag": "🇺🇬",
-    "currency": "UGX"
+    "currency": "UGX",
+    "names": {
+      "es": "Uganda",
+      "fr": "Ouganda",
+      "de": "Uganda",
+      "pt": "Uganda",
+      "it": "Uganda",
+      "ja": "ウガンダ"
+    }
   },
   {
     "code": "UA",
     "name": "Ukraine",
     "callingCode": "+380",
     "flag": "🇺🇦",
-    "currency": "UAH"
+    "currency": "UAH",
+    "names": {
+      "es": "Ucrania",
+      "fr": "Ukraine",
+      "de": "Ukraine",
+      "pt": "Ucrânia",
+      "it": "Ucraina",
+      "ja": "ウクライナ"
+    }
   },
   {
     "code": "AE",
     "name": "United Arab Emirates",
     "callingCode": "+971",
     "flag": "🇦🇪",
-    "currency": "AED"
+    "currency": "AED",
+    "names": {
+      "es": "Emiratos Árabes Unidos",
+      "fr": "Émirats Arabes Unis",
+      "de": "Vereinigte Arabische Emirate",
+      "pt": "Emirados Árabes Unidos",
+      "it": "Emirati Arabi Uniti",
+      "ja": "アラブ首長国連邦"
+    }
   },
   {
     "code": "GB",
     "name": "United Kingdom",
     "callingCode": "+44",
     "flag": "🇬🇧",
-    "currency": "GBP"
+    "currency": "GBP",
+    "names": {
+      "es": "Reino Unido",
+      "fr": "Royaume-Uni",
+      "de": "Vereinigtes Königreich",
+      "pt": "Reino Unido",
+      "it": "Regno Unito",
+      "ja": "イギリス"
+    }
   },
   {
     "code": "US",
     "name": "United States",
     "callingCode": "+1",
     "flag": "🇺🇸",
-    "currency": "USD"
+    "currency": "USD",
+    "names": {
+      "es": "Estados Unidos",
+      "fr": "États-Unis",
+      "de": "Vereinigte Staaten",
+      "pt": "Estados Unidos",
+      "it": "Stati Uniti",
+      "ja": "アメリカ合衆国"
+    }
   },
   {
     "code": "UY",
     "name": "Uruguay",
     "callingCode": "+598",
     "flag": "🇺🇾",
-    "currency": "UYU"
+    "currency": "UYU",
+    "names": {
+      "es": "Uruguay",
+      "fr": "Uruguay",
+      "de": "Uruguay",
+      "pt": "Uruguai",
+      "it": "Uruguay",
+      "ja": "ウルグアイ"
+    }
   },
   {
     "code": "UZ",
     "name": "Uzbekistan",
     "callingCode": "+998",
     "flag": "🇺🇿",
-    "currency": "UZS"
+    "currency": "UZS",
+    "names": {
+      "es": "Uzbekistán",
+      "fr": "Ouzbékistan",
+      "de": "Usbekistan",
+      "pt": "Uzbequistão",
+      "it": "Uzbekistan",
+      "ja": "ウズベキスタン"
+    }
   },
   {
     "code": "VU",
     "name": "Vanuatu",
     "callingCode": "+678",
     "flag": "🇻🇺",
-    "currency": "VUV"
+    "currency": "VUV",
+    "names": {
+      "es": "Vanuatu",
+      "fr": "Vanuatu",
+      "de": "Vanuatu",
+      "pt": "Vanuatu",
+      "it": "Vanuatu",
+      "ja": "バヌアツ"
+    }
   },
   {
     "code": "VA",
     "name": "Vatican City",
     "callingCode": "+379",
     "flag": "🇻🇦",
-    "currency": "EUR"
+    "currency": "EUR",
+    "names": {
+      "es": "Ciudad del Vaticano",
+      "fr": "Cité du Vatican",
+      "de": "Vatikanstadt",
+      "pt": "Cidade do Vaticano",
+      "it": "Città del Vaticano",
+      "ja": "バチカン市国"
+    }
   },
   {
     "code": "VE",
     "name": "Venezuela",
     "callingCode": "+58",
     "flag": "🇻🇪",
-    "currency": "VES"
+    "currency": "VES",
+    "names": {
+      "es": "Venezuela",
+      "fr": "Venezuela",
+      "de": "Venezuela",
+      "pt": "Venezuela",
+      "it": "Venezuela",
+      "ja": "ベネズエラ"
+    }
   },
   {
     "code": "VN",
     "name": "Vietnam",
     "callingCode": "+84",
     "flag": "🇻🇳",
-    "currency": "VND"
+    "currency": "VND",
+    "names": {
+      "es": "Vietnam",
+      "fr": "Vietnam",
+      "de": "Vietnam",
+      "pt": "Vietnã",
+      "it": "Vietnam",
+      "ja": "ベトナム"
+    }
   },
   {
     "code": "YE",
     "name": "Yemen",
     "callingCode": "+967",
     "flag": "🇾🇪",
-    "currency": "YER"
+    "currency": "YER",
+    "names": {
+      "es": "Yemen",
+      "fr": "Yémen",
+      "de": "Jemen",
+      "pt": "Iêmen",
+      "it": "Yemen",
+      "ja": "イエメン"
+    }
   },
   {
     "code": "ZM",
     "name": "Zambia",
     "callingCode": "+260",
     "flag": "🇿🇲",
-    "currency": "ZMW"
+    "currency": "ZMW",
+    "names": {
+      "es": "Zambia",
+      "fr": "Zambie",
+      "de": "Sambia",
+      "pt": "Zâmbia",
+      "it": "Zambia",
+      "ja": "ザンビア"
+    }
   },
   {
     "code": "ZW",
     "name": "Zimbabwe",
     "callingCode": "+263",
     "flag": "🇿🇼",
-    "currency": "ZWL"
+    "currency": "ZWL",
+    "names": {
+      "es": "Zimbabue",
+      "fr": "Zimbabwe",
+      "de": "Simbabwe",
+      "pt": "Zimbábue",
+      "it": "Zimbabwe",
+      "ja": "ジンバブエ"
+    }
   }
 ]

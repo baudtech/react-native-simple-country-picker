@@ -7,6 +7,7 @@ import {
   type ViewStyle,
 } from 'react-native';
 import type { CountryItemProps } from '../types';
+import { getCountryName } from '../utils/translations';
 
 /**
  * Memoized country list item component
@@ -17,7 +18,10 @@ const CountryItem: React.FC<CountryItemProps> = ({
   onPress,
   withFlag = false,
   withCallingCode = false,
+  language,
 }) => {
+  const displayName = getCountryName(country, language);
+
   return (
     <TouchableOpacity
       testID={`country-item-${country.code}`}
@@ -27,7 +31,7 @@ const CountryItem: React.FC<CountryItemProps> = ({
       <View style={styles.container}>
         {withFlag && <Text style={styles.flag}>{country.flag}</Text>}
         <Text style={styles.name} numberOfLines={1} ellipsizeMode="tail">
-          {country.name}
+          {displayName}
         </Text>
         {withCallingCode && (
           <Text style={styles.callingCode}>{country.callingCode}</Text>

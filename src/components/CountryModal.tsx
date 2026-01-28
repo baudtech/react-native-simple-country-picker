@@ -12,6 +12,7 @@ import {
 import type { CountryModalProps, Country } from '../types';
 import CountryItem, { ITEM_HEIGHT } from './CountryItem';
 import SearchBar from './SearchBar';
+import { getTranslations } from '../utils/translations';
 
 /**
  * Modal component containing the country list with header and optional search
@@ -28,7 +29,12 @@ const CountryModal: React.FC<CountryModalProps> = ({
   onSearchChange,
   style,
   renderHeader,
+  language,
+  translations: customTranslations,
 }) => {
+  // Get translations
+  const translations = getTranslations(language, customTranslations);
+
   // Memoized render function for FlatList performance
   const renderItem: ListRenderItem<Country> = useCallback(
     ({ item }) => (
@@ -37,9 +43,10 @@ const CountryModal: React.FC<CountryModalProps> = ({
         onPress={onSelectCountry}
         withFlag={withFlag}
         withCallingCode={withCallingCode}
+        language={language}
       />
     ),
-    [onSelectCountry, withFlag, withCallingCode]
+    [onSelectCountry, withFlag, withCallingCode, language]
   );
 
   // Memoized key extractor
@@ -69,7 +76,7 @@ const CountryModal: React.FC<CountryModalProps> = ({
           renderHeader(onClose)
         ) : (
           <View style={styles.header}>
-            <Text style={styles.title}>Select Country</Text>
+            <Text style={styles.title}>{translations.headerTitle}</Text>
             <TouchableOpacity
               testID="close-button"
               onPress={onClose}
@@ -86,7 +93,7 @@ const CountryModal: React.FC<CountryModalProps> = ({
           <SearchBar
             value={searchQuery}
             onChangeText={onSearchChange}
-            placeholder="Search by name or code"
+            placeholder={translations.searchPlaceholder}
           />
         )}
 
@@ -104,7 +111,9 @@ const CountryModal: React.FC<CountryModalProps> = ({
           keyboardShouldPersistTaps="handled"
           ListEmptyComponent={
             <View style={styles.emptyContainer}>
-              <Text style={styles.emptyText}>No countries found</Text>
+              <Text style={styles.emptyText}>
+                {translations.noCountriesFound}
+              </Text>
             </View>
           }
         />
