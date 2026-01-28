@@ -1,4 +1,4 @@
-# react-native-country-picker
+# react-native-simple-country-picker
 
 A flexible and customizable country picker component for React Native with search functionality, calling codes, and custom rendering options.
 
@@ -17,20 +17,20 @@ A flexible and customizable country picker component for React Native with searc
 ## Installation
 
 ```sh
-npm install react-native-country-picker
+npm install react-native-simple-country-picker
 ```
 
 or
 
 ```sh
-yarn add react-native-country-picker
+yarn add react-native-simple-country-picker
 ```
 
 ## Basic Usage
 
 ```tsx
 import React, { useState } from 'react';
-import CountryPicker, { Country } from 'react-native-country-picker';
+import CountryPicker, { Country } from 'react-native-simple-country-picker';
 
 function MyComponent() {
   const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
@@ -260,7 +260,7 @@ This library is written in TypeScript and exports all necessary types:
 import CountryPicker, {
   Country,
   CountryPickerProps
-} from 'react-native-country-picker';
+} from 'react-native-simple-country-picker';
 ```
 
 ## Contributing

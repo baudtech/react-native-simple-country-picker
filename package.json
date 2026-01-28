@@ -1,5 +1,5 @@
 {
-  "name": "react-native-country-picker",
+  "name": "react-native-simple-country-picker",
   "version": "0.1.0",
   "description": "Country picker for React-Native",
   "main": "./lib/module/index.js",
@@ -32,7 +32,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-country-picker-example",
+    "example": "yarn workspace react-native-simple-country-picker-example",
     "clean": "del-cli lib",
     "prepare": "bob build",
     "typecheck": "tsc",
@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baudtech/react-native-country-picker.git"
+    "url": "git+https://github.com/baudtech/react-native-simple-country-picker.git"
   },
   "author": "ctriantaf <chris@baud.tech> (https://github.com/ctriantaf)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/baudtech/react-native-country-picker/issues"
+    "url": "https://github.com/baudtech/react-native-simple-country-picker/issues"
   },
-  "homepage": "https://github.com/baudtech/react-native-country-picker#readme",
+  "homepage": "https://github.com/baudtech/react-native-simple-country-picker#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CountryPicker Example",
-    "slug": "react-native-country-picker-example",
+    "slug": "react-native-simple-country-picker-example",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

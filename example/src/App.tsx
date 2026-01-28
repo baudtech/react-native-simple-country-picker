@@ -6,7 +6,9 @@ import {
   ScrollView,
   TouchableOpacity,
 } from 'react-native';
-import CountryPicker, { type Country } from 'react-native-country-picker';
+import CountryPicker, {
+  type Country,
+} from 'react-native-simple-country-picker';
 
 export default function App() {
   const [country1, setCountry1] = useState<Country | null>(null);
@@ -128,12 +130,12 @@ export default function App() {
                 <Text style={styles.chevronText}>▾</Text>
               </View>
             )}
-            renderFlag={(country) => (
+            renderFlag={(country: Country) => (
               <View style={styles.customFlag}>
                 <Text style={styles.customFlagText}>{country.code}</Text>
               </View>
             )}
-            renderHeader={(onClose) => (
+            renderHeader={(onClose: () => void) => (
               <View style={styles.customHeader}>
                 <Text style={styles.customHeaderTitle}>
                   Choose Your Country
