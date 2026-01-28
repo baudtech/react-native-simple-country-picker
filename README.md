@@ -6,10 +6,12 @@ A flexible and customizable country picker component for React Native with searc
 
 - Complete country data including flags, names, ISO codes, calling codes, and currencies
 - Searchable country list with instant filtering
+- Display calling codes in picker button and list
 - Customizable button appearance
 - Modal-based picker interface
 - Support for country whitelisting
 - Custom rendering for flags and chevron icons
+- **Localization support** with 4 UI languages (English, Spanish, French, German) and 6 country name languages
 - TypeScript support with full type definitions
 - Zero dependencies (pure React Native)
 - iOS and Android support
@@ -97,6 +99,17 @@ function MyComponent() {
 ```tsx
 <CountryPicker
   withFlag
+  onSelect={(country) => console.log('Selected:', country)}
+/>
+```
+
+### With Calling Codes
+
+```tsx
+<CountryPicker
+  withFlag
+  withCountryNameButton
+  withCallingCode
   onSelect={(country) => console.log('Selected:', country)}
 />
 ```
@@ -254,11 +267,79 @@ The `Country` object returned by `onSelect` has the following structure:
 ```typescript
 interface Country {
   code: string;           // ISO 3166-1 alpha-2 (e.g., "US")
-  name: string;           // Country name (e.g., "United States")
+  name: string;           // Country name in English (e.g., "United States")
   callingCode: string;    // E.164 format (e.g., "+1")
   flag: string;           // Emoji flag (e.g., "🇺🇸")
   currency?: string;      // ISO 4217 code (e.g., "USD")
+  names?: Record<string, string>; // Translated country names (e.g., { es: "Estados Unidos", fr: "États-Unis" })
 }
+```
+
+## Localization
+
+The country picker supports multiple languages for UI strings and country names.
+
+### UI Languages
+
+Supported UI languages: **English (en)**, **Spanish (es)**, **French (fr)**, **German (de)**
+
+### Country Name Languages
+
+Country names are translated in 6 languages: **English**, **Spanish**, **French**, **German**, **Portuguese**, **Italian**, **Japanese**
+
+### Using Localization
+
+```tsx
+// Spanish UI and country names
+<CountryPicker
+  language="es"
+  withFlag
+  withCountryNameButton
+  onSelect={(country) => console.log('Selected:', country)}
+/>
+
+// Dynamic language switching
+const [language, setLanguage] = useState('en');
+
+<CountryPicker
+  language={language}
+  withFlag
+  withCountryNameButton
+  onSelect={(country) => console.log('Selected:', country)}
+/>
+
+// Custom translations
+<CountryPicker
+  language="en"
+  translations={{
+    searchPlaceholder: 'Find a country...',
+    headerTitle: 'Choose Your Country',
+    noCountriesFound: 'No matches found',
+  }}
+  withFlag
+  withCountryNameButton
+  withFilter
+  onSelect={(country) => console.log('Selected:', country)}
+/>
+```
+
+### Accessing Translation Utilities
+
+For advanced use cases, you can use the translation utilities directly:
+
+```tsx
+import CountryPicker, {
+  getTranslations,
+  getCountryName,
+} from 'react-native-simple-country-picker';
+
+// Get UI translations for a language
+const translations = getTranslations('es');
+console.log(translations.headerTitle); // "Seleccionar País"
+
+// Get translated country name
+const country = { code: 'US', name: 'United States', flag: '🇺🇸', callingCode: '+1' };
+const spanishName = getCountryName(country, 'es'); // "Estados Unidos"
 ```
 
 ## TypeScript
@@ -268,7 +349,10 @@ This library is written in TypeScript and exports all necessary types:
 ```typescript
 import CountryPicker, {
   Country,
-  CountryPickerProps
+  CountryPickerProps,
+  Translations,
+  getTranslations,
+  getCountryName,
 } from 'react-native-simple-country-picker';
 ```
 
