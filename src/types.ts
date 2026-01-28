@@ -1,4 +1,4 @@
-import type { StyleProp, ViewStyle } from 'react-native';
+import type { StyleProp, ViewStyle, TextStyle } from 'react-native';
 
 /**
  * Country data structure
@@ -81,6 +81,8 @@ export interface CountryPickerProps {
   buttonStyle?: StyleProp<ViewStyle>;
   /** Style for the modal container */
   modalStyle?: StyleProp<ViewStyle>;
+  /** Style for country name and calling code text in button */
+  countryNameStyle?: StyleProp<TextStyle>;
 
   // Custom render functions
   /** Custom render function for the chevron icon on the button */
@@ -147,6 +149,8 @@ export interface CountryButtonProps {
   renderFlag?: (country: Country) => React.ReactNode;
   /** Placeholder text when no country is selected */
   placeholder?: string;
+  /** Custom style for country name and calling code text */
+  countryNameStyle?: StyleProp<TextStyle>;
 }
 
 /**

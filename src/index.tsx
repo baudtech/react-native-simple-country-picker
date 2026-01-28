@@ -64,6 +64,7 @@ const CountryPicker = forwardRef<CountryPickerRef, CountryPickerProps>(
       containerStyle,
       buttonStyle,
       modalStyle,
+      countryNameStyle,
       renderChevron,
       renderFlag,
       renderHeader,
@@ -163,6 +164,7 @@ const CountryPicker = forwardRef<CountryPickerRef, CountryPickerProps>(
           renderChevron={renderChevron}
           renderFlag={renderFlag}
           placeholder={placeholder}
+          countryNameStyle={countryNameStyle}
         />
         <CountryModal
           visible={modalVisible}

@@ -294,9 +294,9 @@ export default function App() {
 
         {/* Example 9: Custom Placeholder Text */}
         <View style={styles.example}>
-          <Text style={styles.label}>Custom Placeholder Text</Text>
+          <Text style={styles.label}>Custom Placeholder & Text Styling</Text>
           <Text style={styles.description}>
-            Customize the placeholder text shown when no country is selected
+            Customize the placeholder text and country name styling
           </Text>
           <CountryPicker
             withCountryNameButton
@@ -304,11 +304,15 @@ export default function App() {
             withFilter
             onSelect={setCountry9}
             placeholder="🌍 Choose your country"
+            countryNameStyle={styles.customCountryName}
           />
           {country9 && (
             <View style={styles.result}>
               <Text style={styles.resultText}>
                 Selected: {country9.flag} {country9.name}
+              </Text>
+              <Text style={styles.resultDetail}>
+                The country name text has custom styling applied
               </Text>
             </View>
           )}
@@ -472,5 +476,10 @@ const styles = StyleSheet.create({
   },
   imperativeExample: {
     gap: 12,
+  },
+  customCountryName: {
+    fontSize: 18,
+    fontWeight: '700',
+    color: '#007AFF',
   },
 });

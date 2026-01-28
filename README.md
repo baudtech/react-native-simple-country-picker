@@ -74,6 +74,7 @@ function MyComponent() {
 | `containerStyle` | `ViewStyle` | `undefined` | Style for the main container |
 | `buttonStyle` | `ViewStyle` | `undefined` | Style for the button |
 | `modalStyle` | `ViewStyle` | `undefined` | Style for the modal |
+| `countryNameStyle` | `TextStyle` | `undefined` | Style for country name and calling code text in button |
 | `renderChevron` | `() => ReactNode` | `undefined` | Custom chevron/dropdown icon renderer |
 | `renderFlag` | `(country: Country) => ReactNode` | `undefined` | Custom flag renderer |
 | `renderHeader` | `(onClose: () => void) => ReactNode` | `undefined` | Custom modal header renderer |
@@ -261,6 +262,11 @@ import { View, Text, TouchableOpacity } from 'react-native';
     backgroundColor: '#f0f0f0',
     borderRadius: 12,
     paddingVertical: 16,
+  }}
+  countryNameStyle={{
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#007AFF',
   }}
 />
 ```
