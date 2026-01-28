@@ -1,3 +1,139 @@
-export function multiply(a: number, b: number): number {
-  return a * b;
-}
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { View, StyleSheet } from 'react-native';
+import type { CountryPickerProps, Country } from './types';
+import CountryButton from './components/CountryButton';
+import CountryModal from './components/CountryModal';
+import { filterCountries } from './utils/filterCountries';
+import allCountriesData from './data/countries.json';
+
+// Type assertion for imported JSON
+const allCountries = allCountriesData as Country[];
+
+/**
+ * CountryPicker component
+ *
+ * A simple country picker with modal, search, and customization options.
+ *
+ * @example
+ * ```tsx
+ * <CountryPicker
+ *   withCountryNameButton
+ *   withFlag
+ *   withFilter
+ *   withCallingCode
+ *   onSelect={(country) => console.log(country)}
+ *   countryCode="US"
+ * />
+ * ```
+ */
+const CountryPicker: React.FC<CountryPickerProps> = ({
+  withCountryNameButton = false,
+  withFlag = false,
+  withFilter = false,
+  withCallingCode = false,
+  onSelect,
+  onClose,
+  onOpen,
+  countryCodes,
+  countryCode,
+  containerStyle,
+  buttonStyle,
+  modalStyle,
+}) => {
+  // State management
+  const [modalVisible, setModalVisible] = useState(false);
+  const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // Initialize selected country from countryCode prop
+  useEffect(() => {
+    if (countryCode) {
+      const country = allCountries.find(
+        (c) => c.code.toUpperCase() === countryCode.toUpperCase()
+      );
+      if (country) {
+        setSelectedCountry(country);
+      }
+    }
+  }, [countryCode]);
+
+  // Filter countries based on countryCodes whitelist and search query
+  const filteredCountries = useMemo(() => {
+    let countries = allCountries;
+
+    // Apply countryCodes whitelist if provided
+    if (countryCodes && countryCodes.length > 0) {
+      const upperCaseCodes = countryCodes.map((code) => code.toUpperCase());
+      countries = countries.filter((country) =>
+        upperCaseCodes.includes(country.code.toUpperCase())
+      );
+    }
+
+    // Apply search filter if withFilter is enabled and query exists
+    if (withFilter && searchQuery.trim()) {
+      countries = filterCountries(countries, searchQuery);
+    }
+
+    return countries;
+  }, [countryCodes, searchQuery, withFilter]);
+
+  // Event handlers
+  const handleOpen = useCallback(() => {
+    setModalVisible(true);
+    onOpen?.();
+  }, [onOpen]);
+
+  const handleClose = useCallback(() => {
+    setModalVisible(false);
+    setSearchQuery(''); // Clear search on close
+    onClose?.();
+  }, [onClose]);
+
+  const handleSelect = useCallback(
+    (country: Country) => {
+      setSelectedCountry(country);
+      onSelect(country);
+      handleClose();
+    },
+    [onSelect, handleClose]
+  );
+
+  const handleSearchChange = useCallback((text: string) => {
+    setSearchQuery(text);
+  }, []);
+
+  return (
+    <View style={[styles.container, containerStyle]}>
+      <CountryButton
+        selectedCountry={selectedCountry}
+        onPress={handleOpen}
+        withCountryNameButton={withCountryNameButton}
+        withFlag={withFlag}
+        style={buttonStyle}
+      />
+      <CountryModal
+        visible={modalVisible}
+        onClose={handleClose}
+        countries={filteredCountries}
+        onSelectCountry={handleSelect}
+        withFilter={withFilter}
+        withFlag={withFlag}
+        withCallingCode={withCallingCode}
+        searchQuery={searchQuery}
+        onSearchChange={handleSearchChange}
+        style={modalStyle}
+      />
+    </View>
+  );
+};
+
+export default CountryPicker;
+
+// Export types for consumers
+export type { Country, CountryPickerProps } from './types';
+
+const styles = StyleSheet.create({
+  container: {
+    // Container styles can be overridden via containerStyle prop
+  },
+});
