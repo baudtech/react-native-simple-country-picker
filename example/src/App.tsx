@@ -21,6 +21,7 @@ export default function App() {
   const [country6, setCountry6] = useState<Country | null>(null);
   const [country7, setCountry7] = useState<Country | null>(null);
   const [country8, setCountry8] = useState<Country | null>(null);
+  const [country9, setCountry9] = useState<Country | null>(null);
   const [language, setLanguage] = useState<string>('en');
 
   // Ref for imperative control
@@ -286,6 +287,28 @@ export default function App() {
               <Text style={styles.resultDetail}>
                 You can use ref.current.open() and ref.current.close() to
                 control the modal
+              </Text>
+            </View>
+          )}
+        </View>
+
+        {/* Example 9: Custom Placeholder Text */}
+        <View style={styles.example}>
+          <Text style={styles.label}>Custom Placeholder Text</Text>
+          <Text style={styles.description}>
+            Customize the placeholder text shown when no country is selected
+          </Text>
+          <CountryPicker
+            withCountryNameButton
+            withFlag
+            withFilter
+            onSelect={setCountry9}
+            placeholder="🌍 Choose your country"
+          />
+          {country9 && (
+            <View style={styles.result}>
+              <Text style={styles.resultText}>
+                Selected: {country9.flag} {country9.name}
               </Text>
             </View>
           )}

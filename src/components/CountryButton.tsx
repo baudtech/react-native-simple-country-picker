@@ -20,6 +20,7 @@ const CountryButton: React.FC<CountryButtonProps> = ({
   style,
   renderChevron,
   renderFlag,
+  placeholder = 'Select Country',
 }) => {
   return (
     <TouchableOpacity
@@ -49,7 +50,7 @@ const CountryButton: React.FC<CountryButtonProps> = ({
           </Text>
         )}
         {!selectedCountry && (
-          <Text style={styles.placeholder}>Select Country</Text>
+          <Text style={styles.placeholder}>{placeholder}</Text>
         )}
         {renderChevron ? (
           renderChevron()

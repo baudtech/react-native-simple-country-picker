@@ -77,6 +77,7 @@ function MyComponent() {
 | `renderChevron` | `() => ReactNode` | `undefined` | Custom chevron/dropdown icon renderer |
 | `renderFlag` | `(country: Country) => ReactNode` | `undefined` | Custom flag renderer |
 | `renderHeader` | `(onClose: () => void) => ReactNode` | `undefined` | Custom modal header renderer |
+| `placeholder` | `string` | `'Select Country'` | Placeholder text when no country is selected |
 
 ## Imperative API
 
@@ -234,6 +235,17 @@ import { View, Text, TouchableOpacity } from 'react-native';
       </TouchableOpacity>
     </View>
   )}
+/>
+```
+
+### Custom Placeholder Text
+
+```tsx
+<CountryPicker
+  withFlag
+  withCountryNameButton
+  onSelect={(country) => console.log('Selected:', country)}
+  placeholder="Choose your country"
 />
 ```
 

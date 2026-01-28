@@ -89,6 +89,10 @@ export interface CountryPickerProps {
   renderFlag?: (country: Country) => React.ReactNode;
   /** Custom render function for the modal header */
   renderHeader?: (onClose: () => void) => React.ReactNode;
+
+  // Text customization
+  /** Placeholder text for the button when no country is selected */
+  placeholder?: string;
 }
 
 /**
@@ -141,6 +145,8 @@ export interface CountryButtonProps {
   renderChevron?: () => React.ReactNode;
   /** Custom render function for the flag */
   renderFlag?: (country: Country) => React.ReactNode;
+  /** Placeholder text when no country is selected */
+  placeholder?: string;
 }
 
 /**
