@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ctriantaf/react-native-country-picker.git"
+    "url": "git+https://github.com/baudtech/react-native-country-picker.git"
   },
   "author": "ctriantaf <chris@baud.tech> (https://github.com/ctriantaf)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ctriantaf/react-native-country-picker/issues"
+    "url": "https://github.com/baudtech/react-native-country-picker/issues"
   },
-  "homepage": "https://github.com/ctriantaf/react-native-country-picker#readme",
+  "homepage": "https://github.com/baudtech/react-native-country-picker#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
