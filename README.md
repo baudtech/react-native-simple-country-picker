@@ -7,6 +7,7 @@ A flexible and customizable country picker component for React Native with searc
 - Complete country data including flags, names, ISO codes, calling codes, and currencies
 - Searchable country list with instant filtering
 - Display calling codes in picker button and list
+- **Imperative ref API** for programmatic modal control
 - Customizable button appearance
 - Modal-based picker interface
 - Support for country whitelisting
@@ -77,6 +78,17 @@ function MyComponent() {
 | `renderFlag` | `(country: Country) => ReactNode` | `undefined` | Custom flag renderer |
 | `renderHeader` | `(onClose: () => void) => ReactNode` | `undefined` | Custom modal header renderer |
 
+## Imperative API
+
+You can control the modal programmatically using a ref:
+
+```typescript
+interface CountryPickerRef {
+  open: () => void;   // Opens the country picker modal
+  close: () => void;  // Closes the country picker modal
+}
+```
+
 ## Examples
 
 ### Full Featured Picker
@@ -124,6 +136,40 @@ function MyComponent() {
   countryCodes={['US', 'CA', 'MX', 'GB', 'FR', 'DE']}
   onSelect={(country) => console.log('Selected:', country)}
 />
+```
+
+### Imperative Control with Ref
+
+```tsx
+import { useRef } from 'react';
+import CountryPicker, { CountryPickerRef } from 'react-native-simple-country-picker';
+import { Button } from 'react-native';
+
+function MyComponent() {
+  const pickerRef = useRef<CountryPickerRef>(null);
+
+  return (
+    <>
+      <CountryPicker
+        ref={pickerRef}
+        withFlag
+        withCountryNameButton
+        withFilter
+        onSelect={(country) => console.log('Selected:', country)}
+      />
+
+      <Button
+        title="Open Picker"
+        onPress={() => pickerRef.current?.open()}
+      />
+
+      <Button
+        title="Close Picker"
+        onPress={() => pickerRef.current?.close()}
+      />
+    </>
+  );
+}
 ```
 
 ### Custom Chevron Icon
@@ -350,6 +396,7 @@ This library is written in TypeScript and exports all necessary types:
 import CountryPicker, {
   Country,
   CountryPickerProps,
+  CountryPickerRef,
   Translations,
   getTranslations,
   getCountryName,
