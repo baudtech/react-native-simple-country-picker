@@ -17,6 +17,8 @@ const CountryButton: React.FC<CountryButtonProps> = ({
   withCountryNameButton = false,
   withFlag = false,
   style,
+  renderChevron,
+  renderFlag,
 }) => {
   return (
     <TouchableOpacity
@@ -27,7 +29,13 @@ const CountryButton: React.FC<CountryButtonProps> = ({
     >
       <View style={styles.content}>
         {withFlag && selectedCountry && (
-          <Text style={styles.flag}>{selectedCountry.flag}</Text>
+          <>
+            {renderFlag ? (
+              renderFlag(selectedCountry)
+            ) : (
+              <Text style={styles.flag}>{selectedCountry.flag}</Text>
+            )}
+          </>
         )}
         {withCountryNameButton && selectedCountry && (
           <Text style={styles.countryName} numberOfLines={1}>
@@ -37,7 +45,11 @@ const CountryButton: React.FC<CountryButtonProps> = ({
         {!selectedCountry && (
           <Text style={styles.placeholder}>Select Country</Text>
         )}
-        <Text style={styles.chevron}>▼</Text>
+        {renderChevron ? (
+          renderChevron()
+        ) : (
+          <Text style={styles.chevron}>▼</Text>
+        )}
       </View>
     </TouchableOpacity>
   );

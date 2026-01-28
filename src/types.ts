@@ -51,6 +51,14 @@ export interface CountryPickerProps {
   buttonStyle?: StyleProp<ViewStyle>;
   /** Style for the modal container */
   modalStyle?: StyleProp<ViewStyle>;
+
+  // Custom render functions
+  /** Custom render function for the chevron icon on the button */
+  renderChevron?: () => React.ReactNode;
+  /** Custom render function for the flag on the button */
+  renderFlag?: (country: Country) => React.ReactNode;
+  /** Custom render function for the modal header */
+  renderHeader?: (onClose: () => void) => React.ReactNode;
 }
 
 /**
@@ -95,6 +103,10 @@ export interface CountryButtonProps {
   withFlag?: boolean;
   /** Custom button style */
   style?: StyleProp<ViewStyle>;
+  /** Custom render function for the chevron icon */
+  renderChevron?: () => React.ReactNode;
+  /** Custom render function for the flag */
+  renderFlag?: (country: Country) => React.ReactNode;
 }
 
 /**
@@ -121,4 +133,6 @@ export interface CountryModalProps {
   onSearchChange: (text: string) => void;
   /** Custom modal style */
   style?: StyleProp<ViewStyle>;
+  /** Custom render function for the modal header */
+  renderHeader?: (onClose: () => void) => React.ReactNode;
 }

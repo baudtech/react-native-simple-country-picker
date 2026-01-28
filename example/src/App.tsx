@@ -1,11 +1,19 @@
 import { useState } from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  ScrollView,
+  TouchableOpacity,
+} from 'react-native';
 import CountryPicker, { type Country } from 'react-native-country-picker';
 
 export default function App() {
   const [country1, setCountry1] = useState<Country | null>(null);
   const [country2, setCountry2] = useState<Country | null>(null);
   const [country3, setCountry3] = useState<Country | null>(null);
+  const [country4, setCountry4] = useState<Country | null>(null);
+  const [country5, setCountry5] = useState<Country | null>(null);
 
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer}>
@@ -93,10 +101,61 @@ export default function App() {
             withCountryNameButton
             withFlag
             withCallingCode
-            onSelect={(country) => {
-              console.log('Selected country:', country);
-            }}
+            onSelect={setCountry4}
           />
+          {country4 && (
+            <View style={styles.result}>
+              <Text style={styles.resultText}>
+                Selected: {country4.flag} {country4.name}
+              </Text>
+            </View>
+          )}
+        </View>
+
+        {/* Example 5: Fully Customized */}
+        <View style={styles.example}>
+          <Text style={styles.label}>Fully Customized</Text>
+          <Text style={styles.description}>
+            Custom header, chevron, and flag rendering
+          </Text>
+          <CountryPicker
+            withCountryNameButton
+            withFlag
+            withFilter
+            onSelect={setCountry5}
+            renderChevron={() => (
+              <View style={styles.customChevron}>
+                <Text style={styles.chevronText}>▾</Text>
+              </View>
+            )}
+            renderFlag={(country) => (
+              <View style={styles.customFlag}>
+                <Text style={styles.customFlagText}>{country.code}</Text>
+              </View>
+            )}
+            renderHeader={(onClose) => (
+              <View style={styles.customHeader}>
+                <Text style={styles.customHeaderTitle}>
+                  Choose Your Country
+                </Text>
+                <TouchableOpacity
+                  onPress={onClose}
+                  style={styles.customCloseButton}
+                >
+                  <Text style={styles.customCloseButtonText}>Done</Text>
+                </TouchableOpacity>
+              </View>
+            )}
+            buttonStyle={styles.customButton}
+          />
+          {country5 && (
+            <View style={styles.result}>
+              <Text style={styles.resultText}>
+                Selected: {country5.flag} {country5.name}
+              </Text>
+              <Text style={styles.resultDetail}>Code: {country5.code}</Text>
+            </View>
+          )}
         </View>
       </View>
     </ScrollView>
@@ -159,5 +218,61 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#666',
     marginTop: 2,
+  },
+  customButton: {
+    backgroundColor: '#F8F9FA',
+    borderColor: '#007AFF',
+    borderWidth: 2,
+  },
+  customChevron: {
+    backgroundColor: '#007AFF',
+    borderRadius: 12,
+    width: 24,
+    height: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: 8,
+  },
+  chevronText: {
+    color: '#FFFFFF',
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  customFlag: {
+    backgroundColor: '#007AFF',
+    borderRadius: 4,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    marginRight: 8,
+  },
+  customFlagText: {
+    color: '#FFFFFF',
+    fontSize: 12,
+    fontWeight: '700',
+  },
+  customHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 20,
+    paddingVertical: 16,
+    backgroundColor: '#007AFF',
+    borderBottomWidth: 0,
+  },
+  customHeaderTitle: {
+    fontSize: 20,
+    fontWeight: '700',
+    color: '#FFFFFF',
+  },
+  customCloseButton: {
+    backgroundColor: '#FFFFFF',
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 16,
+  },
+  customCloseButtonText: {
+    color: '#007AFF',
+    fontSize: 14,
+    fontWeight: '600',
   },
 });

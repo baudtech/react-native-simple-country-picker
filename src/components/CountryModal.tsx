@@ -27,6 +27,7 @@ const CountryModal: React.FC<CountryModalProps> = ({
   searchQuery,
   onSearchChange,
   style,
+  renderHeader,
 }) => {
   // Memoized render function for FlatList performance
   const renderItem: ListRenderItem<Country> = useCallback(
@@ -64,17 +65,21 @@ const CountryModal: React.FC<CountryModalProps> = ({
     >
       <View style={[styles.container, style]}>
         {/* Header with close button */}
-        <View style={styles.header}>
-          <Text style={styles.title}>Select Country</Text>
-          <TouchableOpacity
-            testID="close-button"
-            onPress={onClose}
-            style={styles.closeButton}
-            hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-          >
-            <Text style={styles.closeButtonText}>✕</Text>
-          </TouchableOpacity>
-        </View>
+        {renderHeader ? (
+          renderHeader(onClose)
+        ) : (
+          <View style={styles.header}>
+            <Text style={styles.title}>Select Country</Text>
+            <TouchableOpacity
+              testID="close-button"
+              onPress={onClose}
+              style={styles.closeButton}
+              hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+            >
+              <Text style={styles.closeButtonText}>✕</Text>
+            </TouchableOpacity>
+          </View>
+        )}
 
         {/* Optional search bar */}
         {withFilter && (

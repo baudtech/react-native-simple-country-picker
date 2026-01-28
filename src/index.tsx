@@ -39,6 +39,9 @@ const CountryPicker: React.FC<CountryPickerProps> = ({
   containerStyle,
   buttonStyle,
   modalStyle,
+  renderChevron,
+  renderFlag,
+  renderHeader,
 }) => {
   // State management
   const [modalVisible, setModalVisible] = useState(false);
@@ -110,6 +113,8 @@ const CountryPicker: React.FC<CountryPickerProps> = ({
         withCountryNameButton={withCountryNameButton}
         withFlag={withFlag}
         style={buttonStyle}
+        renderChevron={renderChevron}
+        renderFlag={renderFlag}
       />
       <CountryModal
         visible={modalVisible}
@@ -122,6 +127,7 @@ const CountryPicker: React.FC<CountryPickerProps> = ({
         searchQuery={searchQuery}
         onSearchChange={handleSearchChange}
         style={modalStyle}
+        renderHeader={renderHeader}
       />
     </View>
   );
