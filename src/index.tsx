@@ -69,6 +69,7 @@ const CountryPicker = forwardRef<CountryPickerRef, CountryPickerProps>(
       renderFlag,
       renderHeader,
       placeholder,
+      placeholderStyle,
     },
     ref
   ) => {
@@ -166,6 +167,7 @@ const CountryPicker = forwardRef<CountryPickerRef, CountryPickerProps>(
           placeholder={placeholder}
           language={language}
           countryNameStyle={countryNameStyle}
+          placeholderStyle={placeholderStyle}
         />
         <CountryModal
           visible={modalVisible}

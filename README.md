@@ -79,6 +79,7 @@ function MyComponent() {
 | `renderFlag` | `(country: Country) => ReactNode` | `undefined` | Custom flag renderer |
 | `renderHeader` | `(onClose: () => void) => ReactNode` | `undefined` | Custom modal header renderer |
 | `placeholder` | `string` | `'Select Country'` | Placeholder text when no country is selected |
+| `placeholderStyle` | `TextStyle` | `undefined` | Style for placeholder text in button |
 
 ## Imperative API
 
@@ -247,6 +248,11 @@ import { View, Text, TouchableOpacity } from 'react-native';
   withCountryNameButton
   onSelect={(country) => console.log('Selected:', country)}
   placeholder="Choose your country"
+  placeholderStyle={{
+    fontSize: 16,
+    fontStyle: 'italic',
+    color: '#999',
+  }}
 />
 ```
 

@@ -292,11 +292,12 @@ export default function App() {
           )}
         </View>
 
-        {/* Example 9: Custom Placeholder Text */}
+        {/* Example 9: Custom Placeholder & Text Styling */}
         <View style={styles.example}>
           <Text style={styles.label}>Custom Placeholder & Text Styling</Text>
           <Text style={styles.description}>
-            Customize the placeholder text and country name styling
+            Customize the placeholder text, placeholder styling, and country
+            name styling
           </Text>
           <CountryPicker
             withCountryNameButton
@@ -305,6 +306,7 @@ export default function App() {
             onSelect={setCountry9}
             placeholder="🌍 Choose your country"
             countryNameStyle={styles.customCountryName}
+            placeholderStyle={styles.customPlaceholder}
           />
           {country9 && (
             <View style={styles.result}>
@@ -312,7 +314,7 @@ export default function App() {
                 Selected: {country9.flag} {country9.name}
               </Text>
               <Text style={styles.resultDetail}>
-                The country name text has custom styling applied
+                Both placeholder and country name have custom styling applied
               </Text>
             </View>
           )}
@@ -481,5 +483,10 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '700',
     color: '#007AFF',
+  },
+  customPlaceholder: {
+    fontSize: 16,
+    fontStyle: 'italic',
+    color: '#999',
   },
 });

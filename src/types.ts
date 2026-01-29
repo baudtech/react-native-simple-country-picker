@@ -95,6 +95,8 @@ export interface CountryPickerProps {
   // Text customization
   /** Placeholder text for the button when no country is selected */
   placeholder?: string;
+  /** Style for placeholder text in button */
+  placeholderStyle?: StyleProp<TextStyle>;
 }
 
 /**
@@ -153,6 +155,8 @@ export interface CountryButtonProps {
   placeholder?: string;
   /** Custom style for country name and calling code text */
   countryNameStyle?: StyleProp<TextStyle>;
+  /** Custom style for placeholder text */
+  placeholderStyle?: StyleProp<TextStyle>;
 }
 
 /**

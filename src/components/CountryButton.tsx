@@ -24,6 +24,7 @@ const CountryButton: React.FC<CountryButtonProps> = ({
   renderFlag,
   placeholder = 'Select Country',
   countryNameStyle,
+  placeholderStyle,
 }) => {
   const countryName = selectedCountry
     ? getCountryName(selectedCountry, language)
@@ -63,7 +64,9 @@ const CountryButton: React.FC<CountryButtonProps> = ({
           </Text>
         )}
         {!selectedCountry && (
-          <Text style={styles.placeholder}>{placeholder}</Text>
+          <Text style={[styles.placeholder, placeholderStyle]}>
+            {placeholder}
+          </Text>
         )}
         {renderChevron ? (
           renderChevron()
