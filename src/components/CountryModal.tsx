@@ -9,6 +9,7 @@ import {
   type ViewStyle,
   type ListRenderItem,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import type { CountryModalProps, Country } from '../types';
 import CountryItem, { ITEM_HEIGHT } from './CountryItem';
 import SearchBar from './SearchBar';
@@ -70,54 +71,56 @@ const CountryModal: React.FC<CountryModalProps> = ({
       presentationStyle="pageSheet"
       onRequestClose={onClose}
     >
-      <View style={[styles.container, style]}>
-        {/* Header with close button */}
-        {renderHeader ? (
-          renderHeader(onClose)
-        ) : (
-          <View style={styles.header}>
-            <Text style={styles.title}>{translations.headerTitle}</Text>
-            <TouchableOpacity
-              testID="close-button"
-              onPress={onClose}
-              style={styles.closeButton}
-              hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-            >
-              <Text style={styles.closeButtonText}>✕</Text>
-            </TouchableOpacity>
-          </View>
-        )}
-
-        {/* Optional search bar */}
-        {withFilter && (
-          <SearchBar
-            value={searchQuery}
-            onChangeText={onSearchChange}
-            placeholder={translations.searchPlaceholder}
-          />
-        )}
-
-        {/* Country list */}
-        <FlatList
-          testID="country-list"
-          data={countries}
-          renderItem={renderItem}
-          keyExtractor={keyExtractor}
-          getItemLayout={getItemLayout}
-          initialNumToRender={15}
-          maxToRenderPerBatch={5}
-          windowSize={10}
-          removeClippedSubviews={true}
-          keyboardShouldPersistTaps="handled"
-          ListEmptyComponent={
-            <View style={styles.emptyContainer}>
-              <Text style={styles.emptyText}>
-                {translations.noCountriesFound}
-              </Text>
+      <SafeAreaView style={styles.safeArea}>
+        <View style={[styles.container, style]}>
+          {/* Header with close button */}
+          {renderHeader ? (
+            renderHeader(onClose)
+          ) : (
+            <View style={styles.header}>
+              <Text style={styles.title}>{translations.headerTitle}</Text>
+              <TouchableOpacity
+                testID="close-button"
+                onPress={onClose}
+                style={styles.closeButton}
+                hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+              >
+                <Text style={styles.closeButtonText}>✕</Text>
+              </TouchableOpacity>
             </View>
-          }
-        />
-      </View>
+          )}
+
+          {/* Optional search bar */}
+          {withFilter && (
+            <SearchBar
+              value={searchQuery}
+              onChangeText={onSearchChange}
+              placeholder={translations.searchPlaceholder}
+            />
+          )}
+
+          {/* Country list */}
+          <FlatList
+            testID="country-list"
+            data={countries}
+            renderItem={renderItem}
+            keyExtractor={keyExtractor}
+            getItemLayout={getItemLayout}
+            initialNumToRender={15}
+            maxToRenderPerBatch={5}
+            windowSize={10}
+            removeClippedSubviews={true}
+            keyboardShouldPersistTaps="handled"
+            ListEmptyComponent={
+              <View style={styles.emptyContainer}>
+                <Text style={styles.emptyText}>
+                  {translations.noCountriesFound}
+                </Text>
+              </View>
+            }
+          />
+        </View>
+      </SafeAreaView>
     </Modal>
   );
 };
@@ -133,6 +136,9 @@ const SPACING_MD = 16;
 const SPACING_LG = 24;
 
 const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+  } as ViewStyle,
   container: {
     flex: 1,
     backgroundColor: '#FFFFFF',
