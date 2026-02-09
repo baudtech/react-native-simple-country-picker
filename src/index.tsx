@@ -202,6 +202,9 @@ export type {
 // Export translation utilities for advanced use cases
 export { getTranslations, getCountryName } from './utils/translations';
 
+// Export countries data for direct access
+export { default as Countries } from './data/countries.json';
+
 const styles = StyleSheet.create({
   container: {
     // Container styles can be overridden via containerStyle prop

@@ -10,6 +10,11 @@
       "types": "./lib/typescript/src/index.d.ts",
       "default": "./lib/module/index.js"
     },
+    "./countries": {
+      "source": "./src/data/countries.json",
+      "types": "./lib/typescript/src/data/countries.json.d.ts",
+      "default": "./lib/module/data/countries.json"
+    },
     "./package.json": "./package.json"
   },
   "files": [
