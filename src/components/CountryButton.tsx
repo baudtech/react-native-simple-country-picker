@@ -25,6 +25,8 @@ const CountryButton: React.FC<CountryButtonProps> = ({
   placeholder = 'Select Country',
   countryNameStyle,
   placeholderStyle,
+  accessibilityRole = 'button',
+  accessibilityHint,
 }) => {
   const countryName = selectedCountry
     ? getCountryName(selectedCountry, language)
@@ -36,6 +38,8 @@ const CountryButton: React.FC<CountryButtonProps> = ({
       onPress={onPress}
       style={[styles.container, style]}
       activeOpacity={0.7}
+      accessibilityRole={accessibilityRole}
+      accessibilityHint={accessibilityHint}
     >
       <View style={styles.content}>
         {withFlag && selectedCountry && (

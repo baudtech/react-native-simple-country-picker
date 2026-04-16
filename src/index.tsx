@@ -70,6 +70,8 @@ const CountryPicker = forwardRef<CountryPickerRef, CountryPickerProps>(
       renderHeader,
       placeholder,
       placeholderStyle,
+      accessibilityRole,
+      accessibilityHint,
     },
     ref
   ) => {
@@ -168,6 +170,8 @@ const CountryPicker = forwardRef<CountryPickerRef, CountryPickerProps>(
           language={language}
           countryNameStyle={countryNameStyle}
           placeholderStyle={placeholderStyle}
+          accessibilityRole={accessibilityRole}
+          accessibilityHint={accessibilityHint}
         />
         <CountryModal
           visible={modalVisible}
