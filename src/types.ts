@@ -1,4 +1,9 @@
-import type { AccessibilityRole, StyleProp, ViewStyle, TextStyle } from 'react-native';
+import type {
+  AccessibilityRole,
+  StyleProp,
+  ViewStyle,
+  TextStyle,
+} from 'react-native';
 
 /**
  * Country data structure
