@@ -1,4 +1,9 @@
-import type { StyleProp, ViewStyle, TextStyle } from 'react-native';
+import type {
+  AccessibilityRole,
+  StyleProp,
+  ViewStyle,
+  TextStyle,
+} from 'react-native';
 
 /**
  * Country data structure
@@ -97,6 +102,12 @@ export interface CountryPickerProps {
   placeholder?: string;
   /** Style for placeholder text in button */
   placeholderStyle?: StyleProp<TextStyle>;
+
+  // Accessibility
+  /** Accessibility role for the picker trigger button (default: "button") */
+  accessibilityRole?: AccessibilityRole;
+  /** Accessibility hint for the picker trigger button */
+  accessibilityHint?: string;
 }
 
 /**
@@ -157,6 +168,10 @@ export interface CountryButtonProps {
   countryNameStyle?: StyleProp<TextStyle>;
   /** Custom style for placeholder text */
   placeholderStyle?: StyleProp<TextStyle>;
+  /** Accessibility role for the button (default: "button") */
+  accessibilityRole?: AccessibilityRole;
+  /** Accessibility hint for the button */
+  accessibilityHint?: string;
 }
 
 /**
