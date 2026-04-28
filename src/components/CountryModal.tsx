@@ -49,7 +49,13 @@ const CountryModal: React.FC<CountryModalProps> = ({
         accessibilityHint={countryItemAccessibilityHint}
       />
     ),
-    [onSelectCountry, withFlag, withCallingCode, language, countryItemAccessibilityHint]
+    [
+      onSelectCountry,
+      withFlag,
+      withCallingCode,
+      language,
+      countryItemAccessibilityHint,
+    ]
   );
 
   // Memoized key extractor
@@ -81,7 +87,9 @@ const CountryModal: React.FC<CountryModalProps> = ({
             renderHeader(onClose)
           ) : (
             <View style={styles.header}>
-              <Text style={styles.title} accessibilityRole="header">{translations.headerTitle}</Text>
+              <Text style={styles.title} accessibilityRole="header">
+                {translations.headerTitle}
+              </Text>
               <TouchableOpacity
                 testID="close-button"
                 onPress={onClose}

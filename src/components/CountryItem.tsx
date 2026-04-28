@@ -33,7 +33,11 @@ const CountryItem: React.FC<CountryItemProps> = ({
       accessibilityHint={accessibilityHint}
     >
       <View style={styles.container}>
-        {withFlag && <Text style={styles.flag} accessible={false}>{country.flag}</Text>}
+        {withFlag && (
+          <Text style={styles.flag} accessible={false}>
+            {country.flag}
+          </Text>
+        )}
         <Text style={styles.name} numberOfLines={1} ellipsizeMode="tail">
           {displayName}
         </Text>

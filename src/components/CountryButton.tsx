@@ -48,7 +48,9 @@ const CountryButton: React.FC<CountryButtonProps> = ({
             {renderFlag ? (
               renderFlag(selectedCountry)
             ) : (
-              <Text style={styles.flag} accessible={false}>{selectedCountry.flag}</Text>
+              <Text style={styles.flag} accessible={false}>
+                {selectedCountry.flag}
+              </Text>
             )}
           </>
         )}
@@ -77,7 +79,9 @@ const CountryButton: React.FC<CountryButtonProps> = ({
         {renderChevron ? (
           renderChevron()
         ) : (
-          <Text style={styles.chevron} accessible={false}>▼</Text>
+          <Text style={styles.chevron} accessible={false}>
+            ▼
+          </Text>
         )}
       </View>
     </TouchableOpacity>
