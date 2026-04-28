@@ -72,6 +72,7 @@ const CountryPicker = forwardRef<CountryPickerRef, CountryPickerProps>(
       placeholderStyle,
       accessibilityRole,
       accessibilityHint,
+      countryItemAccessibilityHint,
     },
     ref
   ) => {
@@ -187,6 +188,7 @@ const CountryPicker = forwardRef<CountryPickerRef, CountryPickerProps>(
           renderHeader={renderHeader}
           language={language}
           translations={translations}
+          countryItemAccessibilityHint={countryItemAccessibilityHint}
         />
       </View>
     );

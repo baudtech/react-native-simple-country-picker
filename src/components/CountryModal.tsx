@@ -32,6 +32,7 @@ const CountryModal: React.FC<CountryModalProps> = ({
   renderHeader,
   language,
   translations: customTranslations,
+  countryItemAccessibilityHint,
 }) => {
   // Get translations
   const translations = getTranslations(language, customTranslations);
@@ -45,9 +46,10 @@ const CountryModal: React.FC<CountryModalProps> = ({
         withFlag={withFlag}
         withCallingCode={withCallingCode}
         language={language}
+        accessibilityHint={countryItemAccessibilityHint}
       />
     ),
-    [onSelectCountry, withFlag, withCallingCode, language]
+    [onSelectCountry, withFlag, withCallingCode, language, countryItemAccessibilityHint]
   );
 
   // Memoized key extractor
@@ -70,6 +72,7 @@ const CountryModal: React.FC<CountryModalProps> = ({
       animationType="slide"
       presentationStyle="pageSheet"
       onRequestClose={onClose}
+      accessibilityViewIsModal={true}
     >
       <SafeAreaView style={styles.safeArea}>
         <View style={[styles.container, style]}>
@@ -78,12 +81,14 @@ const CountryModal: React.FC<CountryModalProps> = ({
             renderHeader(onClose)
           ) : (
             <View style={styles.header}>
-              <Text style={styles.title}>{translations.headerTitle}</Text>
+              <Text style={styles.title} accessibilityRole="header">{translations.headerTitle}</Text>
               <TouchableOpacity
                 testID="close-button"
                 onPress={onClose}
                 style={styles.closeButton}
                 hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+                accessibilityRole="button"
+                accessibilityLabel={translations.closeButtonAccessibilityLabel}
               >
                 <Text style={styles.closeButtonText}>✕</Text>
               </TouchableOpacity>
