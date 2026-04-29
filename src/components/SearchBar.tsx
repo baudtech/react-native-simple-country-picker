@@ -30,6 +30,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
         autoCapitalize="none"
         clearButtonMode="while-editing"
         returnKeyType="search"
+        accessibilityRole="search"
       />
     </View>
   );

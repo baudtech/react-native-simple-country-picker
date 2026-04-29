@@ -9,21 +9,29 @@ const LOCALE_STRINGS: Record<string, Translations> = {
     searchPlaceholder: 'Search by name or code',
     headerTitle: 'Select Country',
     noCountriesFound: 'No countries found',
+    closeButtonAccessibilityLabel: 'Close',
+    countryCode: 'country code',
   },
   es: {
     searchPlaceholder: 'Buscar por nombre o código',
     headerTitle: 'Seleccionar País',
     noCountriesFound: 'No se encontraron países',
+    closeButtonAccessibilityLabel: 'Cerrar',
+    countryCode: 'código de país',
   },
   fr: {
     searchPlaceholder: 'Rechercher par nom ou code',
     headerTitle: 'Sélectionner un Pays',
     noCountriesFound: 'Aucun pays trouvé',
+    closeButtonAccessibilityLabel: 'Fermer',
+    countryCode: 'indicatif pays',
   },
   de: {
     searchPlaceholder: 'Nach Name oder Code durchsuchen',
     headerTitle: 'Land auswählen',
     noCountriesFound: 'Keine Länder gefunden',
+    closeButtonAccessibilityLabel: 'Schließen',
+    countryCode: 'Ländervorwahl',
   },
 };
 
@@ -50,6 +58,11 @@ export function getTranslations(
       customTranslations?.headerTitle ?? baseTranslations.headerTitle,
     noCountriesFound:
       customTranslations?.noCountriesFound ?? baseTranslations.noCountriesFound,
+    closeButtonAccessibilityLabel:
+      customTranslations?.closeButtonAccessibilityLabel ??
+      baseTranslations.closeButtonAccessibilityLabel,
+    countryCode:
+      customTranslations?.countryCode ?? baseTranslations.countryCode,
   };
 }
 

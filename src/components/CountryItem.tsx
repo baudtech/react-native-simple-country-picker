@@ -19,6 +19,8 @@ const CountryItem: React.FC<CountryItemProps> = ({
   withFlag = false,
   withCallingCode = false,
   language,
+  accessibilityRole = 'button',
+  accessibilityHint,
 }) => {
   const displayName = getCountryName(country, language);
 
@@ -27,9 +29,15 @@ const CountryItem: React.FC<CountryItemProps> = ({
       testID={`country-item-${country.code}`}
       onPress={() => onPress(country)}
       activeOpacity={0.7}
+      accessibilityRole={accessibilityRole}
+      accessibilityHint={accessibilityHint}
     >
       <View style={styles.container}>
-        {withFlag && <Text style={styles.flag}>{country.flag}</Text>}
+        {withFlag && (
+          <Text style={styles.flag} accessible={false}>
+            {country.flag}
+          </Text>
+        )}
         <Text style={styles.name} numberOfLines={1} ellipsizeMode="tail">
           {displayName}
         </Text>

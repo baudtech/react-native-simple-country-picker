@@ -7,7 +7,7 @@ import {
   type ViewStyle,
 } from 'react-native';
 import type { CountryButtonProps } from '../types';
-import { getCountryName } from '../utils/translations';
+import { getCountryName, getTranslations } from '../utils/translations';
 
 /**
  * Button component that triggers the country picker modal
@@ -31,6 +31,7 @@ const CountryButton: React.FC<CountryButtonProps> = ({
   const countryName = selectedCountry
     ? getCountryName(selectedCountry, language)
     : '';
+  const { countryCode: countryCodeLabel } = getTranslations(language);
 
   return (
     <TouchableOpacity
@@ -47,7 +48,9 @@ const CountryButton: React.FC<CountryButtonProps> = ({
             {renderFlag ? (
               renderFlag(selectedCountry)
             ) : (
-              <Text style={styles.flag}>{selectedCountry.flag}</Text>
+              <Text style={styles.flag} accessible={false}>
+                {selectedCountry.flag}
+              </Text>
             )}
           </>
         )}
@@ -63,6 +66,7 @@ const CountryButton: React.FC<CountryButtonProps> = ({
           <Text
             style={[styles.countryName, countryNameStyle]}
             numberOfLines={1}
+            accessibilityLabel={`${selectedCountry.callingCode}, ${countryCodeLabel}`}
           >
             {selectedCountry.callingCode}
           </Text>
@@ -75,7 +79,9 @@ const CountryButton: React.FC<CountryButtonProps> = ({
         {renderChevron ? (
           renderChevron()
         ) : (
-          <Text style={styles.chevron}>▼</Text>
+          <Text style={styles.chevron} accessible={false}>
+            ▼
+          </Text>
         )}
       </View>
     </TouchableOpacity>

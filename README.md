@@ -13,7 +13,7 @@ A flexible and customizable country picker component for React Native with searc
 - Support for country whitelisting
 - Custom rendering for flags and chevron icons
 - **Localization support** with 4 UI languages (English, Spanish, French, German) and 6 country name languages
-- **Accessibility support** with configurable `accessibilityRole` and `accessibilityHint` on the trigger button
+- **Full accessibility support** for trigger button, country list, and modal
 - TypeScript support with full type definitions
 - Zero dependencies (pure React Native)
 - iOS and Android support
@@ -81,8 +81,9 @@ function MyComponent() {
 | `renderHeader` | `(onClose: () => void) => ReactNode` | `undefined` | Custom modal header renderer |
 | `placeholder` | `string` | `'Select Country'` | Placeholder text when no country is selected |
 | `placeholderStyle` | `TextStyle` | `undefined` | Style for placeholder text in button |
-| `accessibilityRole` | `AccessibilityRole` | `'button'` | Accessibility role announced by screen readers |
-| `accessibilityHint` | `string` | `undefined` | Accessibility hint announced by screen readers |
+| `accessibilityRole` | `AccessibilityRole` | `'button'` | Accessibility role for the trigger button |
+| `accessibilityHint` | `string` | `undefined` | Accessibility hint for the trigger button |
+| `countryItemAccessibilityHint` | `string` | `undefined` | Accessibility hint forwarded to each country item in the list |
 
 ## Imperative API
 
@@ -266,8 +267,11 @@ import { View, Text, TouchableOpacity } from 'react-native';
   withFlag
   withCountryNameButton
   onSelect={(country) => console.log('Selected:', country)}
+  // Trigger button
   accessibilityRole="combobox"
   accessibilityHint="Opens country selection list"
+  // Country list items
+  countryItemAccessibilityHint="Double tap to select this country"
 />
 ```
 
@@ -400,6 +404,7 @@ const [language, setLanguage] = useState('en');
     searchPlaceholder: 'Find a country...',
     headerTitle: 'Choose Your Country',
     noCountriesFound: 'No matches found',
+    closeButtonAccessibilityLabel: 'Dismiss',
   }}
   withFlag
   withCountryNameButton

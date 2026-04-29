@@ -33,6 +33,10 @@ export interface Translations {
   headerTitle: string;
   /** Empty state message when no countries found */
   noCountriesFound: string;
+  /** Accessibility label for the modal close button (default: "Close") */
+  closeButtonAccessibilityLabel?: string;
+  /** Accessibility label suffix for the calling code, appended after the value (e.g. "+30, country code") */
+  countryCode?: string;
 }
 
 /**
@@ -108,6 +112,8 @@ export interface CountryPickerProps {
   accessibilityRole?: AccessibilityRole;
   /** Accessibility hint for the picker trigger button */
   accessibilityHint?: string;
+  /** Accessibility hint forwarded to each CountryItem in the list */
+  countryItemAccessibilityHint?: string;
 }
 
 /**
@@ -124,6 +130,10 @@ export interface CountryItemProps {
   withCallingCode?: boolean;
   /** Language/locale code for displaying translated country names */
   language?: string;
+  /** Accessibility role for the item (default: "button") */
+  accessibilityRole?: AccessibilityRole;
+  /** Accessibility hint for the item */
+  accessibilityHint?: string;
 }
 
 /**
@@ -204,4 +214,6 @@ export interface CountryModalProps {
   language?: string;
   /** Translations for UI strings */
   translations?: Translations;
+  /** Accessibility hint forwarded to each CountryItem in the list */
+  countryItemAccessibilityHint?: string;
 }
